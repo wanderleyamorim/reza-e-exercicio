@@ -211,6 +211,82 @@
     {
       "lei": "Respeito à vida (autocuidado)",
       "texto": "Paro e reconheço a vida que me sustenta por dentro — coração, fôlego, corpo em funcionamento silencioso. Cuidar disso aos 45 não é medo; é a mesma lei do respeito à vida aplicada para dentro. O exercício desta hora é exatamente isso: pequeno, constante, a favor do corpo."
+    },
+    {
+      "lei": "Justiça (pergunta aberta)",
+      "texto": "Hoje, em vez de afirmar, pergunto — porque a dúvida honesta também é alinhamento: a régua que estou usando com as pessoas desta semana, eu aceitaria que usassem comigo? Não respondo rápido. Deixo a pergunta trabalhar um minuto."
+    },
+    {
+      "lei": "Domínio próprio (pergunta aberta)",
+      "texto": "Uma pergunta aberta, sem resposta pronta: das coisas que fiz hoje no automático, quantas eu escolheria fazer se parasse para escolher? Um minuto com a pergunta, sem forçar conclusão. A pergunta bem feita já reorganiza."
+    },
+    {
+      "lei": "Honestidade (pergunta aberta)",
+      "texto": "Hoje a prática é perguntar de verdade: em que ponto a minha filosofia pode estar apenas me confirmando, em vez de me examinar? Um minuto com essa dúvida, sem pressa de fechá-la. Um sistema que aguenta a pergunta fica mais forte, não mais fraco."
+    }
+  ],
+  "encerramentosSemanais": [
+    {
+      "lei": "Balanço semanal — contabilidade da alma",
+      "texto": "No fechamento da semana, reconheço a ordem que atravessou os sete dias — presente nas horas em que lembrei dela e igualmente presente nas que esqueci.\n\nA sabedoria milenar chama isso de contabilidade da alma: uma vez por semana, olhar o conjunto — não o dia, a semana. Qual lei foi fácil nesta semana? Qual pediu mais esforço? Não para dar nota, para dar direção: onde o esforço se concentra é onde a próxima semana começa.\n\nAlguns minutos de silêncio, mais que o habitual. Passo pelos dias sem julgar, escolho uma coisa que se sustentou e uma que pede ajuste — uma de cada, não mais.\n\nFecho a semana com o balanço feito e a página virada: o que foi, registrado; o que vem, com um ajuste escolhido a dedo."
+    },
+    {
+      "lei": "Balanço semanal — a lição da semana",
+      "texto": "Sete dias se fecham agora, e a mesma ordem que os abriu continua aqui — ela não se cansa no fim da semana.\n\nA tradição sugere que revisão sem hora marcada vira ruminação, e hora marcada sem revisão vira cegueira: por isso o balanço tem lugar fixo — este. Reviso a semana pelas sete leis, de leve: qual delas a semana praticou quase sozinha, e qual precisou ser lembrada a cada hora.\n\nSilêncio um pouco mais longo. Nomeio a lição da semana em uma frase — se não couber em uma frase, ainda não é a lição.\n\nEntro na nova semana mais leve: com uma lição no bolso em vez de sete pendências na cabeça."
+    }
+  ],
+  "contemplativas": [
+    {
+      "lei": "Contemplação — a ordem funcionando",
+      "texto": "Hoje o tom é outro: não reviso, só reconheço. A ordem que sustenta tudo não precisa da minha correção para funcionar — e por um minuto eu simplesmente a observo funcionando: luz, corpo, o dia inteiro de pé sem esforço meu."
+    },
+    {
+      "lei": "Contemplação — o corpo em silêncio",
+      "texto": "Um minuto de apreciação, sem ajuste: o coração bateu a semana inteira sem pedir instrução. Respiro e noto o corpo funcionando — não o que falta nele, o que já opera em silêncio a meu favor."
+    },
+    {
+      "lei": "Contemplação — quem sustenta o dia",
+      "texto": "Hoje não corrijo nada. Só noto as pessoas que sustentam o meu dia sem que eu veja — quem fez a comida chegar, a rua funcionar, a casa estar de pé. Um minuto de reconhecimento pelo que recebo pronto."
+    },
+    {
+      "lei": "Contemplação — o suficiente",
+      "texto": "Pauso sem tarefa. O tempo de hoje não precisa render — essa é a lógica do descanso: um dia por semana, o suficiente já é suficiente. Um minuto notando que não falta nada neste exato momento."
+    },
+    {
+      "lei": "Contemplação — a própria razão",
+      "texto": "Um minuto de apreciação pela própria razão: a mesma mente que resolve problemas a semana inteira hoje só contempla. Penso em uma coisa que entendi nesta semana — e registro o simples fato de que entender é possível."
+    },
+    {
+      "lei": "Contemplação — a ordem no pequeno",
+      "texto": "Hoje observo o pequeno: a água que sai da torneira, a palavra aprendida, o hábito que se sustentou. A ordem das coisas grandes mora nas pequenas. Um minuto para notar três delas."
+    },
+    {
+      "lei": "Contemplação — silêncio sem pauta",
+      "texto": "Sem revisão hoje. Só um minuto de silêncio inteiro, sem pauta — não para consertar a mente, para deixá-la em paz. O descanso também é uma forma de reconhecer a ordem: ela segue sem mim."
+    },
+    {
+      "lei": "Contemplação — gratidão com precisão",
+      "texto": "Aprecio com precisão, não com sentimentalismo: enumero, em um minuto, o que funcionou nesta semana sem que eu gerenciasse. A lista é sempre maior do que parece — e isso é um dado, não um consolo."
+    },
+    {
+      "lei": "Contemplação — a vida ao redor",
+      "texto": "Hoje só noto a vida ao redor: quem ri na outra sala, o verde na janela, o movimento da rua. Nada disso precisa de mim agora — e há um descanso real em ser parte, não gestor."
+    },
+    {
+      "lei": "Contemplação — o que já é",
+      "texto": "Um minuto com o que já é, sem projetar o que falta: a casa que existe, o trabalho que existe, o corpo que chegou até aqui. O dia de apreciar não nega o que falta — só devolve o peso ao que já está dado."
+    },
+    {
+      "lei": "Contemplação — a constância",
+      "texto": "Aprecio hoje a continuidade: quantas semanas o corpo, a casa e os laços já atravessaram. A ordem se mostra menos nos picos e mais na constância — e a constância desta semana merece um minuto de registro."
+    },
+    {
+      "lei": "Contemplação — a beleza da lógica",
+      "texto": "Hoje contemplo o que normalmente uso: a lógica. As mesmas leis que organizam a moral organizam o mundo — e há beleza nisso, não só utilidade. Um minuto admirando a ordem como quem olha, não como quem opera."
+    },
+    {
+      "lei": "Contemplação — nada a corrigir agora",
+      "texto": "Fecho o circuito desta hora sem meta: o dia de contemplar não pede progresso. Um minuto reconhecendo que, agora, nada precisa ser diferente do que é — hoje, só o descanso diante da ordem."
     }
   ]
 }
