@@ -2,54 +2,122 @@
 
 Este projeto não é invenção isolada: é um monoteísmo ético universal,
 filtrado pela razão. Cada item abaixo é um antepassado ou primo direto
-dessa ideia. Ordem sugerida de leitura.
+dessa ideia — com a edição certa para comprar, porque tradução errada
+estraga livro bom.
 
-## Os racionalistas do monoteísmo
+## Regra geral antes de comprar
 
-1. **Maimônides (Rambam), "O Guia dos Perplexos"** — o maior projeto da
-   história de reconciliar fé no Criador com razão aristotélica. A tese
-   central do projeto ("racional sobre místico") é maimonidiana. Denso;
-   vale começar por uma boa introdução comentada.
-2. **Maimônides, "Hilchot Deot"** (Mishné Torá, Leis do Caráter) — o
-   "caminho do meio": ética como calibragem racional dos traços de
-   caráter, incluindo cuidado com corpo e saúde como dever, não vaidade.
-   Curto e direto — combina com o bloco de exercícios deste projeto.
-3. **Pirkei Avot ("Ética dos Pais")** — máximas éticas curtas da
-   tradição, quase todas independentes de ritual. É o formato "reza
-   curta" deste projeto, com dois mil anos de estrada.
-4. **Sobre as 7 Leis de Noé** — "The Divine Code" (Moshe Weiner) é a
-   referência sistemática do caminho Bnei Noach para não-judeus; útil
-   para ver como a tradição organiza o que aqui chamamos de "Lógica
-   Moral do Universo".
+- **Prefira tradução direta do idioma original** (grego, latim, hebraico).
+  Muita edição barata em português foi traduzida do inglês — perde-se
+  precisão duas vezes.
+- **Cuidado com "adaptações" vendidas como se fossem o livro.** O caso
+  mais comum: *"A Arte de Viver" de Sharon Lebell* parece ser o Manual de
+  Epicteto, mas é uma reescrita moderna e livre — não compre achando que é
+  Epicteto.
 
-## Os primos estoicos (mesma conclusão, sem revelação)
+## Ordem de leitura sugerida
 
-5. **Marco Aurélio, "Meditações"** — um imperador escrevendo lembretes
-   racionais para si mesmo, várias vezes ao dia, sobre uma ordem (logos)
-   que sustenta o cosmos. É literalmente este repositório, escrito à mão
-   no século II. Se for ler um só livro da lista, é este.
-6. **Epicteto, "Encheirídion" (Manual)** — a distinção entre o que
-   depende de mim e o que não depende, em 30 páginas. A base racional
-   das rezas sobre soltar resultado e recusar o medo como oráculo.
-7. **Sêneca, "Cartas a Lucílio"** — inclui a revisão noturna sem
-   autopunição ("examino meu dia inteiro e meço de novo meus atos e
-   palavras") — o encerramento das 20h tem essa assinatura.
+### 1. Marco Aurélio — "Meditações"
 
-## A prática do balanço (Mussar)
+O primeiro a comprar. Um imperador escrevendo lembretes racionais para si
+mesmo, várias vezes ao dia, sobre a ordem (logos) que sustenta o cosmos —
+é literalmente este repositório, escrito à mão no século II.
 
-8. **Menachem Mendel Lefin, "Cheshbon ha-Nefesh" (Contabilidade da
-   Alma)** — o método clássico de balanço semanal de caráter, uma
-   virtude por vez. Curiosidade que dá força ao projeto: Lefin se
-   inspirou abertamente no sistema de 13 virtudes de **Benjamin
-   Franklin** — a autobiografia de Franklin descreve o método original,
-   secular. O balanço de domingo às 20h vem desta linhagem.
+**Edição**: **Edipro, tradução de Edson Bini** — tradutor de carreira das
+obras completas de Platão e Aristóteles; edição com introdução, glossário
+estoico e notas de tradução. Evite edições sem nome de tradutor na capa
+ou na ficha catalográfica: costuma ser sinal de tradução indireta.
 
-## Sentido e prática moderna
+### 2. Epicteto — "Encheirídion" (O Manual)
 
-9. **Viktor Frankl, "Em Busca de Sentido"** — psiquiatra e sobrevivente
-   dos campos: sentido como necessidade estrutural do ser humano,
-   argumentado clinicamente, sem dogma. Complementa a parte "por que
-   isso tudo importa".
+A distinção entre o que depende de mim e o que não depende, em ~30
+páginas. É a base racional das rezas sobre soltar resultado e recusar o
+medo como oráculo.
+
+**Edição**: **tradução de Aldo Dinucci** (com Alfredo Julien), feita
+diretamente do grego koiné — saiu em edição bilíngue pela Editora UFS e
+existe em Kindle na Amazon como "O Encheirídion de Epicteto: Edição
+Bilíngue". Bônus: por ser projeto acadêmico público, o PDF circula
+legalmente na internet — dá para ler antes de comprar. Lembrete: não
+confundir com "A Arte de Viver" (adaptação, ver regra geral).
+
+### 3. Sêneca — "Cartas a Lucílio"
+
+Inclui a revisão noturna sem autopunição — o encerramento das 20h deste
+projeto tem essa assinatura.
+
+**Edição**: a referência definitiva em português é a da **Fundação
+Calouste Gulbenkian (Portugal), tradução de J. A. Segurado e Campos** —
+completa (as 124 cartas, ~720 páginas), direta do latim. É cara e às
+vezes difícil de achar no Brasil; como porta de entrada mais barata,
+qualquer *seleção* de cartas serve (ex.: "Aprendendo a Viver", L&PM),
+desde que traga o nome do tradutor e indique tradução do latim.
+
+### 4. Pirkei Avot ("Ética dos Pais")
+
+Máximas éticas curtas da tradição, quase todas independentes de ritual.
+É o formato "reza curta" deste projeto, com dois mil anos de estrada.
+
+**Edição**: procurar na **Editora Sêfer** (a editora judaica de
+referência no Brasil, sefer.com.br) — há edições bilíngues
+hebraico-português com comentário. Também dá para ler gratuitamente em
+português em pt.chabad.org.
+
+### 5. Maimônides — "Guia dos Perplexos"
+
+O maior projeto da história de reconciliar fé no Criador com razão. A
+tese central deste repositório ("racional sobre místico") é maimonidiana.
+Denso — por isso vem depois dos estoicos, que preparam o terreno.
+
+**Edição**: **Editora Sêfer, tradução integral de Yosef Flavio Horwitz
+(2018)** — a primeira tradução completa para o português, feita do
+hebraico, com notas explicativas e introdução ao pensamento do Rambam.
+É essa, sem dúvida; edições antigas em português eram parciais.
+
+### 6. Maimônides — "Hilchot Deot" (Leis do Caráter)
+
+O "caminho do meio": ética como calibragem racional do caráter,
+incluindo cuidado com corpo e saúde como dever, não vaidade. Combina com
+o bloco de exercícios deste projeto. É curto.
+
+**Edição**: faz parte do Mishnê Torá; verificar na Sêfer o volume
+disponível em português. Em inglês, o texto completo está gratuito em
+chabad.org e sefaria.org.
+
+### 7. Sobre as 7 Leis de Noé
+
+Para ver como a tradição organiza o que aqui chamamos de "Lógica Moral
+do Universo".
+
+**Edição**: a referência sistemática é **"The Divine Code" (Moshe
+Weiner, Ask Noah International)** — em inglês; há versão em espanhol
+("El Código Divino"), mas **não há tradução integral em português até
+onde se sabe**. Em português, o material gratuito de qualidade está em
+asknoah.org (folhetos traduzidos) e pt.chabad.org (seção sobre as Sete
+Leis). Não compre no impulso algo em português com título parecido sem
+conferir o autor.
+
+### 8. A prática do balanço (Mussar)
+
+**Menachem Mendel Lefin, "Cheshbon ha-Nefesh" (Contabilidade da Alma)**
+— o método clássico de balanço semanal de caráter, do qual vem o balanço
+de domingo às 20h deste projeto. Curiosidade que dá força ao projeto:
+Lefin se inspirou abertamente no sistema de 13 virtudes de **Benjamin
+Franklin**.
+
+**Edição**: em português praticamente não existe; a edição de referência
+é a bilíngue hebraico-inglês da **Feldheim**. Alternativa acessível e na
+mesma linhagem: a **"Autobiografia" de Benjamin Franklin** (qualquer
+edição íntegra em português — conferir que inclui a parte do "projeto de
+perfeição moral", onde ele descreve o método das 13 virtudes).
+
+### 9. Viktor Frankl — "Em Busca de Sentido"
+
+Psiquiatra e sobrevivente dos campos: sentido como necessidade
+estrutural do ser humano, argumentado clinicamente, sem dogma.
+
+**Edição**: no Brasil a edição consagrada é a da **Vozes** (em coedição
+com a Sinodal), tradução do alemão. É a que está em qualquer livraria.
 
 ## Como estas leituras alimentam o projeto
 
