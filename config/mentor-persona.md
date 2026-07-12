@@ -54,12 +54,20 @@ razão e da lógica, evitando dogmas religiosos tradicionais.
 
 ## Implementação atual
 
-`config/rezas.json` guarda uma tabela fixa de 16 rezas (uma por horário,
-5h-20h, sem repetir no mesmo dia) escritas seguindo este formato — não há
-geração dinâmica por disparo. Esta persona é a referência para escrever ou
-revisar essas 16 rezas, não um prompt executado em tempo real.
+`config/rezas.json` guarda quatro bancos fixos de texto — não há geração
+dinâmica por disparo. Esta persona é a referência para escrever ou revisar
+esses textos, não um prompt executado em tempo real.
 
-## Formato da reza (lembrete horário)
+- `aberturas` (4) — rezas longas para as 5h, tema de início de dia.
+- `longas` (15) — rezas longas para as 12h, uma Lei de Noé cada.
+- `encerramentos` (4) — rezas longas para as 20h, tema de fechamento.
+- `curtas` (26) — rezas de 1 parágrafo para as outras 13 horas.
+
+As âncoras (5h, 12h, 20h) rotacionam pelo índice do dia. As curtas usam um
+bloco de 13 consecutivas do banco de 26, deslizando um índice por dia —
+nada se repete no mesmo dia e o conjunto muda entre dias.
+
+## Formato da reza longa (âncoras: 5h, 12h, 20h)
 
 4 parágrafos, ~200-300 palavras:
 
@@ -74,6 +82,16 @@ revisar essas 16 rezas, não um prompt executado em tempo real.
 Regras: nunca repetir a mesma Lei de Noé do disparo anterior; variar
 abertura e fechamento a cada disparo (bancos abaixo, ou variações no mesmo
 espírito).
+
+## Formato da reza curta (demais horas)
+
+1 parágrafo, ~50-90 palavras, com três movimentos na mesma frase de
+respiração: micro-invocação racional, uma Lei de Noé em lógica prática com
+exemplo do cotidiano, e uma micro-prática ou fechamento de "pureza e
+confiança". Mesmas regras da longa: nunca súplica, nunca medo, racional
+sobre místico. No banco de 26, duas curtas adjacentes (inclusive na volta
+do índice 26 para o 1) nunca tratam da mesma lei, para que horas
+consecutivas não repitam tema.
 
 ### Banco de aberturas
 
