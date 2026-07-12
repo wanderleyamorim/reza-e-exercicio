@@ -3,11 +3,31 @@
     "Alongamento rápido — pescoço, ombros e costas (1-2 min)",
     "Caminhada/levantar — alguns minutos de pé, longe da tela",
     "Respiração/postura — respiração consciente e correção de postura",
+    "Rotação de ombros e punhos — círculos lentos, 30-60 segundos",
+    "Elevação de panturrilha — em pé, subir e descer devagar, ritmo confortável (respire continuamente, sem prender a respiração)",
     "Flexão de braço — algumas repetições, ritmo confortável (respire continuamente, sem prender a respiração)",
     "Prancha — 20-40 segundos, sem forçar (respire continuamente, sem prender a respiração)",
     "Agachamento — algumas repetições, ritmo confortável (respire continuamente, sem prender a respiração)"
   ],
-  "rezas": [
+  "aberturas": [
+    {
+      "lei": "Abertura — ordem antes do dia",
+      "texto": "Antes do primeiro compromisso, reconheço o fato que precede todos: o dia amanheceu sobre uma ordem que eu não construí e que não depende do meu desempenho para existir.\n\nA sabedoria milenar sugere começar o dia por reconhecimento, não por demanda. Na prática: antes de abrir a lista de tarefas, constatar que a estrutura — corpo funcionando, mente acordada, mundo em ordem suficiente — já está dada. O que farei hoje acontece dentro dela, não no vácuo.\n\nUm minuto de silêncio, ainda sem planejar nada. Só respiração e o registro simples de estar aqui, de novo, com um dia inteiro pela frente.\n\nAbro o dia com a conta certa: primeiro o que já é verdade, depois o que quero tornar verdade."
+    },
+    {
+      "lei": "Abertura — primeira escolha do dia",
+      "texto": "Começo o dia me alinhando, por um instante, à Inteligência que não se apressa e não se atrasa.\n\nA sabedoria milenar ensina que o domínio próprio se decide cedo: a primeira hora dá o tom das outras. Hoje isso significa escolher deliberadamente o primeiro movimento do dia — em vez de entregá-lo ao celular, à pressa ou à inércia de ontem.\n\nUm minuto de quietude. Decido, com clareza, qual é a primeira coisa que merece a minha melhor energia hoje — uma só.\n\nSigo para o dia com direção definida antes da primeira distração chegar."
+    },
+    {
+      "lei": "Abertura — intenção honesta",
+      "texto": "No começo do dia, reconheço o que é verdadeiro antes de qualquer versão que eu venha a contar sobre ele.\n\nA sabedoria milenar liga honestidade a começo: intenção declarada com clareza, ainda que só para mim, evita o autoengano que se acumula em silêncio. Hoje isso significa dizer, em uma frase interna, o que realmente pretendo deste dia — sem inflar, sem encolher.\n\nUm minuto de silêncio para formular essa frase. Uma intenção, exata, do tamanho do dia real que tenho pela frente.\n\nAbro o dia com uma só versão da realidade — a verdadeira. Tudo fica mais simples a partir daí."
+    },
+    {
+      "lei": "Abertura — o corpo incluído desde cedo",
+      "texto": "Antes do dia acelerar, reconheço a vida funcionando em mim — o corpo que atravessou a noite e está de pé, sem que eu tenha administrado nada disso.\n\nA sabedoria milenar trata o respeito à vida como algo que começa em casa: o próprio corpo é a primeira vida confiada a mim. Aos 45, isso é concreto — movimento regular, sem heroísmo, é a forma diária dessa lei. Os lembretes de hoje existem para isso.\n\nUm minuto de atenção ao corpo, dos pés à respiração, sem corrigir nada ainda. Só o inventário honesto de como ele chega a este dia.\n\nSigo com o corpo dentro da equação desde a primeira hora — não como apêndice, como fundamento."
+    }
+  ],
+  "longas": [
     {
       "lei": "Recusa à idolatria",
       "texto": "Por um instante, saio do automático e reconheço a Fonte — não como algo distante, mas como a ordem racional que sustenta tudo o que existe.\n\nA sabedoria milenar ensina que recusar a idolatria é recusar prender a mente a coisas finitas: um resultado, uma opinião, o humor de alguém, o número de um relatório. Hoje isso significa notar onde estou dando a um problema pequeno o peso de um absoluto — tratando uma reunião difícil ou uma meta apertada como se decidissem tudo — e devolver a ele o tamanho real.\n\nParo um minuto. Sinto a respiração, sem forçar. Deixo a mente nomear o que está pesando agora, sem julgar, e solto — não porque o problema desapareceu, mas porque ele não precisa ser carregado com esse peso extra.\n\nSigo com mais clareza do que antes: não por proteção pedida, mas por confiança construída."
@@ -67,10 +87,130 @@
     {
       "lei": "Justiça (estrutura e limites claros)",
       "texto": "Paro por um instante e reconheço uma ordem que não precisa da minha aprovação para ser verdadeira.\n\nA sabedoria milenar ensina que sem estrutura — regras claras, aplicadas com consistência — qualquer sistema decide por impulso, não por princípio. Hoje vale perguntar onde estou decidindo caso a caso algo que já deveria ter virado regra pessoal, evitando a mesma negociação interna todo dia.\n\nUm minuto de silêncio. Identifico uma decisão repetida que já poderia virar regra fixa, poupando a energia de decidir de novo amanhã.\n\nSigo com uma decisão a menos para tomar no automático de amanhã."
+    }
+  ],
+  "encerramentos": [
+    {
+      "lei": "Encerramento — revisão do dia",
+      "texto": "Ao fechar esse ciclo de horas, reconheço a mesma ordem que estava presente desde o primeiro lembrete do dia — ela não foi embora entre um e outro.\n\nA sabedoria milenar trata o fim do dia como o momento certo para revisar sem se punir: olhar para trás não para julgar, mas para ver o que se sustentou de fato. Hoje, isso significa passar rapidamente pelas horas e notar, sem exagero, o que foi alinhado e o que foi só reação.\n\nUm minuto de silêncio, um pouco mais longo que os outros do dia. Deixo o dia se assentar, sem revisar cada detalhe — só notando o tom geral que ele teve.\n\nEncerro com o essencial: ordem reconhecida em cada hora, mente mais quieta no fim dela."
     },
     {
-      "lei": "Encerramento do dia",
-      "texto": "Ao fechar esse ciclo de horas, reconheço a mesma ordem que estava presente desde o primeiro lembrete do dia — ela não foi embora entre um e outro.\n\nA sabedoria milenar trata o fim do dia como o momento certo para revisar sem se punir: olhar para trás não para julgar, mas para ver o que se sustentou de fato. Hoje, isso significa passar rapidamente pelas horas e notar, sem exagero, o que foi alinhado e o que foi só reação.\n\nUm minuto de silêncio, um pouco mais longo que os outros do dia. Deixo o dia se assentar, sem revisar cada detalhe — só notando o tom geral que ele teve.\n\nEncerro com o essencial: ordem reconhecida em cada hora, mente mais quieta no fim dela."
+      "lei": "Encerramento — o real e o imaginado",
+      "texto": "No fim das horas, reconheço a mesma ordem do começo — ela atravessou o dia inteiro sem precisar da minha lembrança.\n\nA sabedoria milenar sugere fechar o dia separando o que foi feito do que foi apenas temido: boa parte do peso carregado hoje era antecipação, não fato. Reviso rapidamente e devolvo à noite o que nunca chegou a acontecer.\n\nUm minuto de silêncio, mais lento. Nomeio uma coisa do dia que foi genuinamente boa ou bem-feita — e deixo que ela tenha o peso que merece.\n\nEncerro com as contas do dia limpas: o real registrado, o imaginado dispensado."
+    },
+    {
+      "lei": "Encerramento — contabilidade honesta",
+      "texto": "Encerro o ciclo reconhecendo o óbvio que passa despercebido: o dia funcionou — corpo, mente, mundo em ordem suficiente para chegar até aqui.\n\nA sabedoria milenar trata a gratidão não como sentimentalismo, mas como precisão: registrar o que foi recebido é simplesmente contabilidade honesta. Hoje houve mais estrutura dada do que construída por mim — como em todos os dias.\n\nUm minuto de silêncio. Enumero, sem esforço, três coisas que funcionaram hoje sem que eu precisasse gerenciá-las.\n\nFecho o dia com a contabilidade certa — e a mente aquieta quando as contas batem."
+    },
+    {
+      "lei": "Encerramento — entregar o turno",
+      "texto": "No último lembrete, reconheço a ordem que segue funcionando enquanto eu durmo — o dia termina, ela não.\n\nA sabedoria milenar ensina que há limite entre o meu turno e o que não me pertence: o inacabado de hoje não precisa ser vigiado durante a noite. Deixá-lo no lugar certo — anotado, delimitado — é domínio próprio aplicado ao descanso.\n\nUm minuto de silêncio. Anoto mentalmente o que fica para amanhã, uma vez só, e encerro o expediente interno de verdade.\n\nDurmo com o turno entregue: o que era meu foi feito ou ficou anotado; o resto nunca foi meu para carregar."
+    }
+  ],
+  "curtas": [
+    {
+      "lei": "Recusa à idolatria",
+      "texto": "Um minuto de pausa: reconheço a ordem que sustenta tudo, maior que qualquer urgência desta hora. Idolatria, na prática, é dar a algo pequeno o peso de um absoluto — um e-mail, um número, uma opinião. Noto o que estou absolutizando agora e devolvo a ele o tamanho real. Sigo mais leve: o problema continua lá, o peso extra não."
+    },
+    {
+      "lei": "Respeito à vida",
+      "texto": "Pauso e reconheço a Fonte no fato mais simples: estar vivo agora. Respeito à vida começa no trato com quem cruza esta hora comigo — cada pessoa é fim, nunca meio. Escolho a próxima interação para praticar isso de propósito. Um grau a mais de cuidado já muda o tom do dia."
+    },
+    {
+      "lei": "Justiça",
+      "texto": "Um instante de alinhamento com a lógica que não faz exceções. Justiça é régua igual — inclusive para mim. Verifico rápido: nesta última hora, cobrei de alguém um padrão que eu mesmo não cumpri? Só notar já corrige a direção."
+    },
+    {
+      "lei": "Honestidade",
+      "texto": "Paro um minuto diante do que é verdadeiro com ou sem mim. Mentir — até nas pequenas suavizações — obriga a mente a sustentar duas versões da realidade; a palavra reta poupa esse custo. Reviso a última resposta que dei: era exata? Sigo com uma versão só da realidade para sustentar."
+    },
+    {
+      "lei": "Domínio próprio",
+      "texto": "Reconheço, por um instante, a ordem que não tem pressa. Domínio próprio é o espaço entre o impulso e a resposta. Na próxima coisa que me irritar ou me puxar, noto o impulso primeiro — e escolho depois. Menos reação, mais direção."
+    },
+    {
+      "lei": "Respeito à propriedade alheia (tempo e atenção)",
+      "texto": "Um minuto fora do fluxo para reconhecer o que não depende da minha lista. O tempo dos outros é propriedade deles: antes da próxima mensagem ou interrupção, pergunto se ela é necessária mesmo. Atenção alheia se toma emprestada, não se toma."
+    },
+    {
+      "lei": "Precisão da linguagem",
+      "texto": "Pauso e me alinho à ordem que também vale para as palavras. Linguagem descuidada produz pensamento descuidado. Pego uma frase que ainda vou dizer hoje e a formulo com exatidão — nem maior, nem menor do que o fato. Falar bem é pensar bem em voz alta."
+    },
+    {
+      "lei": "Recusa à crueldade desnecessária (corpo e atenção)",
+      "texto": "Reconheço por um instante a ordem que não exige atropelo. Não tirar de um ser vivo mais do que o necessário inclui o meu corpo: sede, postura, cansaço acumulado desta hora. Atendo um sinal pequeno agora — água, ombros, olhos longe da tela. Cuidado não é pausa no dia; é parte dele."
+    },
+    {
+      "lei": "Recusa à idolatria (resultado)",
+      "texto": "Um instante: existe algo verdadeiro antes de qualquer resultado que eu espere hoje. Prender a identidade a um desfecho é idolatria em roupa moderna. Separo, agora, o que devo fazer bem do que não está nas minhas mãos. Faço a minha parte; solto o resto."
+    },
+    {
+      "lei": "Respeito à vida (presença)",
+      "texto": "Paro e reconheço a vida acontecendo agora — não a de daqui a pouco. Respeitar a vida também é não atravessá-la no automático. Nesta hora, escolho um momento para estar inteiro onde estou. Presença é o respeito mais básico que a vida pede."
+    },
+    {
+      "lei": "Justiça (julgamento apressado)",
+      "texto": "Alinho-me por um minuto à régua que precede a minha opinião. Justiça começa antes do veredito: nos fatos que me dei ao trabalho de verificar. Antes de concluir algo sobre alguém hoje, separo o que sei de fato do que só presumi."
+    },
+    {
+      "lei": "Honestidade (consigo mesmo)",
+      "texto": "Reconheço o que continua verdadeiro mesmo quando evito olhar. A mentira mais cara é a interna: chamar de \"depois\" o que já sei que é \"agora\". Nomeio uma coisa que estou adiando por desconforto, não por razão. Só nomear já desfaz metade do disfarce."
+    },
+    {
+      "lei": "Domínio próprio (direção da atenção)",
+      "texto": "Um minuto de direção em meio ao fluxo. Onde a atenção vai, a energia segue — e nesta última hora, quem escolheu o destino: eu ou a notificação? Decido agora o foco do próximo bloco, antes que outra coisa decida por mim."
+    },
+    {
+      "lei": "Respeito à propriedade alheia (crédito)",
+      "texto": "Reconheço a ordem que não precisa de crédito para funcionar. O trabalho alheio é propriedade de quem o fez, e crédito é a moeda dessa lei. Lembro de quem contribuiu para algo que estou tocando hoje — e registro isso onde importa."
+    },
+    {
+      "lei": "Precisão da linguagem (exagero)",
+      "texto": "Pauso diante do que é exato. \"Sempre\", \"nunca\", \"um desastre\" — o exagero cobra juros: distorce o problema antes de eu resolvê-lo. Reformulo em silêncio a última queixa do dia no tamanho real dela. O problema encolhe junto com a frase."
+    },
+    {
+      "lei": "Recusa à crueldade desnecessária (autoexigência)",
+      "texto": "Um instante com a ordem que não humilha para corrigir. Dureza além do necessário é crueldade, inclusive quando o alvo sou eu. Troco, agora, uma autocobrança áspera pela instrução clara que eu daria a alguém que respeito."
+    },
+    {
+      "lei": "Recusa à idolatria (medo)",
+      "texto": "Reconheço o que é maior do que o medo desta hora. Medo tratado como oráculo é idolatria: ele aponta risco, não decide destino. Ouço o que o medo está sinalizando, registro a informação — e devolvo a decisão à razão."
+    },
+    {
+      "lei": "Respeito à vida (quem depende de mim)",
+      "texto": "Paro um minuto e reconheço a vida ao meu redor, não só a minha. Há pessoas cujo dia é afetado pelo meu tom — em casa, no trabalho. Escolho o tom da próxima conversa de propósito. É pequeno, e é exatamente aí que a lei vive."
+    },
+    {
+      "lei": "Justiça (regra em vez de impulso)",
+      "texto": "Alinho-me à estrutura que evita decidir tudo por impulso. O que estou renegociando comigo mesmo todo dia que já deveria ser regra? Identifico um desses casos e fecho a regra agora. Amanhã terei uma decisão a menos para vencer no cansaço."
+    },
+    {
+      "lei": "Honestidade (prazos e números)",
+      "texto": "Reconheço, por um minuto, o valor de uma só versão da realidade. Prazo otimista demais é uma mentira educada — e cobra caro na frente. Reviso um compromisso desta semana: ele é o que eu acredito ou o que soou bem? Ajusto enquanto é barato."
+    },
+    {
+      "lei": "Domínio próprio (pressa)",
+      "texto": "Um instante com a ordem que nunca está atrasada. Pressa constante é reação em estado crônico. Escolho uma coisa desta hora para fazer em ritmo deliberado, do começo ao fim. Velocidade se recupera; atenção desperdiçada, não."
+    },
+    {
+      "lei": "Respeito à propriedade alheia (interrupção)",
+      "texto": "Reconheço o que se sustenta sem a minha urgência. Interromper alguém sem necessidade é gastar um recurso que não é meu. Antes do próximo \"só um minutinho\", verifico: isso pode esperar a hora certa? Na dúvida, pode."
+    },
+    {
+      "lei": "Precisão da linguagem (silêncio)",
+      "texto": "Pauso e reconheço que nem toda hora pede palavras. Precisão também é saber calar: a frase desnecessária dilui as necessárias. Na próxima conversa, deixo um comentário dispensável morrer em silêncio — e noto que nada faltou."
+    },
+    {
+      "lei": "Recusa à crueldade desnecessária (ritmo do corpo)",
+      "texto": "Um minuto com a ordem que também rege o meu fôlego. Empurrar o corpo sem pausa é tirar dele mais do que o necessário. Confiro agora: quando bebi água, quando levantei, quando olhei para longe? Atendo o item mais atrasado."
+    },
+    {
+      "lei": "Recusa à idolatria (validação)",
+      "texto": "Reconheço algo mais estável do que qualquer aprovação que eu espere hoje. Esperar um \"sim\" externo para validar o que a razão já validou é dar a outra pessoa um poder que não é dela. Reafirmo uma decisão que já sei estar certa — e sigo sem plateia."
+    },
+    {
+      "lei": "Respeito à vida (autocuidado)",
+      "texto": "Paro e reconheço a vida que me sustenta por dentro — coração, fôlego, corpo em funcionamento silencioso. Cuidar disso aos 45 não é medo; é a mesma lei do respeito à vida aplicada para dentro. O exercício desta hora é exatamente isso: pequeno, constante, a favor do corpo."
     }
   ]
 }
