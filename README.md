@@ -23,11 +23,21 @@ não depende de nenhuma sessão do Claude estar aberta.
   rotacionando por dia.
 - **20h — encerramento** (reza longa): banco de 4 encerramentos,
   rotacionando por dia.
-- **Demais 13 horas — rezas curtas** (1 parágrafo): banco de 26, em bloco
-  consecutivo que desliza um índice por dia. Nada se repete no mesmo dia e
-  o conjunto muda de um dia para o outro.
+- **Demais 13 horas — rezas curtas** (1 parágrafo): banco de 29 (inclui
+  três "perguntas abertas"), em bloco consecutivo que desliza um índice
+  por dia. Nada se repete no mesmo dia e o conjunto muda de um dia para o
+  outro.
 - **Exercício**: rodízio de 8, deslocado pelo dia. Às 5h só entram os 4
   leves (ver `config/exercicios.md`).
+
+### Ritmo semanal
+
+- **Sábado**: as horas curtas trocam revisão por contemplação (banco
+  `contemplativas`) — mesmos horários, tom de apreciação em vez de
+  correção.
+- **Domingo, 20h**: em vez do encerramento diário, entra o **balanço da
+  semana** (banco `encerramentosSemanais`), no espírito do cheshbon
+  hanefesh — revisar a semana inteira e escolher um ajuste para a próxima.
 
 ### Keepalive
 
@@ -57,8 +67,10 @@ No GitHub: **Settings → Secrets and variables → Actions**, criar:
 - `config/exercicios.md` — rodízio de exercícios e contexto de saúde.
 - `scripts/send-lembrete.mjs` — escolhe e envia a mensagem do horário.
 - `.github/workflows/lembrete-horario.yml` — agenda o disparo horário.
-- `docs/keepalive-workflow.yml` — modelo do commit mensal anti-desativação
-  (copiar para `.github/workflows/keepalive.yml`).
+- `docs/leituras.md` — a linhagem intelectual da filosofia: Maimônides,
+  estoicos, Mussar, 7 Leis de Noé, com ordem de leitura sugerida.
+- `.github/workflows/keepalive.yml` — commit mensal anti-desativação
+  (modelo em `docs/keepalive-workflow.yml`).
 
 ## Contexto de saúde (para calibrar intensidade dos exercícios)
 

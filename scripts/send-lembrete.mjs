@@ -26,9 +26,15 @@ const slot = Math.min(Math.max(horaBrasilia - 5, 0), 15);
 
 // Âncoras com reza completa: 5h (abertura), 12h (longa), 20h (encerramento).
 // As outras 13 horas recebem rezas curtas: um bloco de 13 consecutivas do
-// banco de 26, deslizando um índice por dia — nunca repete no mesmo dia e
-// o conjunto muda de um dia para o outro.
+// banco, deslizando um índice por dia — nunca repete no mesmo dia e o
+// conjunto muda de um dia para o outro.
+//
+// Ritmo semanal: no sábado as horas curtas trocam revisão por contemplação
+// (banco `contemplativas`); no domingo às 20h entra o balanço da semana
+// (banco `encerramentosSemanais`), no espírito do cheshbon hanefesh.
 const SLOTS_CURTA = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14];
+const diaSemana = new Date(dia * 86_400_000).getUTCDay(); // 0=domingo, 6=sábado
+const semana = Math.floor(dia / 7);
 
 let reza;
 if (slot === 0) {
@@ -36,10 +42,16 @@ if (slot === 0) {
 } else if (slot === 7) {
   reza = cfg.longas[dia % cfg.longas.length];
 } else if (slot === 15) {
-  reza = cfg.encerramentos[dia % cfg.encerramentos.length];
+  reza =
+    diaSemana === 0
+      ? cfg.encerramentosSemanais[semana % cfg.encerramentosSemanais.length]
+      : cfg.encerramentos[dia % cfg.encerramentos.length];
 } else {
   const pos = SLOTS_CURTA.indexOf(slot);
-  reza = cfg.curtas[(dia + pos) % cfg.curtas.length];
+  reza =
+    diaSemana === 6
+      ? cfg.contemplativas[(semana + pos) % cfg.contemplativas.length]
+      : cfg.curtas[(dia + pos) % cfg.curtas.length];
 }
 
 // Às 5h só entram os 4 primeiros exercícios (leves): a pressão arterial é
