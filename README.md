@@ -32,9 +32,14 @@ não depende de nenhuma sessão do Claude estar aberta.
 ### Keepalive
 
 O GitHub desativa workflows agendados após 60 dias sem atividade no
-repositório. O workflow `.github/workflows/keepalive.yml` faz um commit
-pequeno todo mês (arquivo `.github/keepalive`) para manter o lembrete vivo
+repositório. O modelo `docs/keepalive-workflow.yml` faz um commit pequeno
+todo mês (arquivo `.github/keepalive`) para manter o lembrete vivo
 indefinidamente.
+
+**Passo manual pendente**: copiar `docs/keepalive-workflow.yml` para
+`.github/workflows/keepalive.yml` (o token do Claude não tem permissão
+para criar arquivos de workflow — precisa ser feito pela interface do
+GitHub ou por um push seu).
 
 ## Configuração necessária
 
@@ -52,7 +57,8 @@ No GitHub: **Settings → Secrets and variables → Actions**, criar:
 - `config/exercicios.md` — rodízio de exercícios e contexto de saúde.
 - `scripts/send-lembrete.mjs` — escolhe e envia a mensagem do horário.
 - `.github/workflows/lembrete-horario.yml` — agenda o disparo horário.
-- `.github/workflows/keepalive.yml` — commit mensal anti-desativação.
+- `docs/keepalive-workflow.yml` — modelo do commit mensal anti-desativação
+  (copiar para `.github/workflows/keepalive.yml`).
 
 ## Contexto de saúde (para calibrar intensidade dos exercícios)
 
