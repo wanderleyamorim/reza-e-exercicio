@@ -1,32 +1,44 @@
 # reza-e-exercicio
 
-Projeto pessoal (privado na prática, hospedado aqui só como registro) para
-lembretes de hora em hora, das 5h às 20h, com dois blocos:
-
-1. **Exercício rápido** — alterna entre alongamento, caminhada/levantar,
-   respiração/postura, flexão, prancha e agachamento.
-2. **Reflexão espiritual** — gerada seguindo a persona definida em
-   `config/mentor-persona.md`: um mentor de monoteísmo racional que traduz
-   as 7 Leis de Noé e a prática de Hitbodedut em termos lógicos e práticos,
-   sem dogma, sem medo, sem intermediários.
+Lembrete de hora em hora, das 5h às 20h (horário de Brasília), com dois
+blocos: um exercício rápido e uma reza no tom de "Mentor de Monoteísmo
+Racional e Ética Universal".
 
 ## Como funciona
 
-Não há aplicativo rodando 24/7 aqui — o disparo é uma Rotina (trigger
-agendado) do Claude Code Remote, configurada com cron `5 5-20 * * *`
-(a cada hora, das 5h05 às 20h05). Cada disparo abre uma sessão nova que:
+Um **GitHub Action agendado** (`.github/workflows/lembrete-horario.yml`)
+roda de hora em hora e manda a mensagem direto para um bot do Telegram —
+não depende de nenhuma sessão do Claude estar aberta.
 
-1. Escolhe o próximo exercício do rodízio em `config/exercicios.md`.
-2. Gera uma reflexão curta seguindo `config/mentor-persona.md`.
-3. Envia uma notificação push para o celular (Claude Code Remote Control).
+1. `scripts/send-lembrete.mjs` calcula a hora atual em Brasília e escolhe
+   o item correspondente em `config/rezas.json` (rodízio de 6).
+2. Envia a mensagem (exercício + reza) via API do Telegram
+   (`sendMessage`), usando os secrets `TELEGRAM_BOT_TOKEN` e
+   `TELEGRAM_CHAT_ID` configurados no repositório.
 
-## Contexto de saúde (para calibrar intensidade)
+## Configuração necessária
 
-Usuário: 45 anos, escore de cálcio coronariano 256, sem outras restrições
-conhecidas. Os exercícios sugeridos são de baixa/moderada intensidade por
-padrão — não substituem orientação médica/cardiológica individual.
+No GitHub: **Settings → Secrets and variables → Actions**, criar:
+
+- `TELEGRAM_BOT_TOKEN` — token do bot (via @BotFather).
+- `TELEGRAM_CHAT_ID` — id do chat que vai receber as mensagens.
 
 ## Arquivos
 
-- `config/mentor-persona.md` — a persona/voz usada para gerar as reflexões.
-- `config/exercicios.md` — a lista de exercícios em rodízio.
+- `config/mentor-persona.md` — a persona usada para escrever as rezas.
+- `config/rezas.json` — rodízio fixo de 6 (exercício + lei de Noé + reza
+  completa), usado pelo script.
+- `scripts/send-lembrete.mjs` — envia a mensagem do horário atual.
+- `.github/workflows/lembrete-horario.yml` — agenda o disparo.
+
+## Contexto de saúde (para calibrar intensidade dos exercícios)
+
+Usuário: 45 anos, escore de cálcio coronariano 256, sem outras restrições
+conhecidas. Exercícios de baixa/moderada intensidade por padrão — não
+substituem orientação médica/cardiológica individual.
+
+## Testar manualmente
+
+Com os secrets configurados, rode o workflow pela aba **Actions** do
+GitHub (`workflow_dispatch`), ou peça para o Claude disparar via
+`actions_run_trigger`.
