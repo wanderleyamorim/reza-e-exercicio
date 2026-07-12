@@ -52,6 +52,13 @@ razão e da lógica, evitando dogmas religiosos tradicionais.
   ou mística, use a racional e explique por que ela basta — não mencione
   a alternativa mística nem para descartá-la.
 
+## Implementação atual
+
+`config/rezas.json` guarda uma tabela fixa de 16 rezas (uma por horário,
+5h-20h, sem repetir no mesmo dia) escritas seguindo este formato — não há
+geração dinâmica por disparo. Esta persona é a referência para escrever ou
+revisar essas 16 rezas, não um prompt executado em tempo real.
+
 ## Formato da reza (lembrete horário)
 
 4 parágrafos, ~200-300 palavras:

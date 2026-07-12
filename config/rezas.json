@@ -1,32 +1,76 @@
-[
-  {
-    "lei": "Recusa à idolatria",
-    "exercicio": "Alongamento rápido — pescoço, ombros e costas (1-2 min)",
-    "reza": "Por um instante, saio do automático e reconheço a Fonte — não como algo distante, mas como a ordem racional que sustenta tudo o que existe.\n\nA sabedoria milenar ensina que recusar a idolatria é recusar prender a mente a coisas finitas: um resultado, uma opinião, o humor de alguém, o número de um relatório. Hoje isso significa notar onde estou dando a um problema pequeno o peso de um absoluto — tratando uma reunião difícil ou uma meta apertada como se decidissem tudo — e devolver a ele o tamanho real.\n\nParo um minuto. Sinto a respiração, sem forçar. Deixo a mente nomear o que está pesando agora, sem julgar, e solto — não porque o problema desapareceu, mas porque ele não precisa ser carregado com esse peso extra.\n\nSigo com mais clareza do que antes: não por proteção pedida, mas por confiança construída."
-  },
-  {
-    "lei": "Respeito à vida",
-    "exercicio": "Caminhada/levantar — alguns minutos de pé, longe da tela",
-    "reza": "Antes de seguir, um ponto de ordem: existe uma lógica que sustenta o que existe, e por um minuto eu me alinho a ela.\n\nA sabedoria milenar ensina o respeito à vida como o reconhecimento de que cada pessoa é um fim em si mesma, nunca um meio. Na prática, isso aparece em coisas pequenas: tratar quem me atende, quem trabalha comigo, quem depende de mim, como obstáculo ou recurso a ser gerenciado, em vez de reconhecer nela o mesmo peso que reconheço em mim.\n\nParo um minuto. Reviso, sem julgamento, algum momento de hoje em que fui rápido demais com alguém — e ajusto internamente, não por culpa, mas por clareza sobre o que é estrutural: essa pessoa tem o mesmo direito de ser fim, não meio.\n\nVolto ao meu dia com um grau a mais de lucidez — isso já é suficiente."
-  },
-  {
-    "lei": "Justiça como necessidade estrutural",
-    "exercicio": "Respiração/postura — respiração consciente e correção de postura",
-    "reza": "Paro o que estou fazendo e volto a um fato simples: há uma Inteligência que precede qualquer problema que eu tenha hoje.\n\nA sabedoria milenar ensina que a justiça não é sentimento, é estrutura: sem uma régua aplicada igualmente a todos, inclusive a mim mesmo, qualquer sistema — uma casa, um trabalho, uma relação — desaba por dentro. Hoje, isso significa perguntar com honestidade onde estou cobrando dos outros um padrão que não aplico a mim.\n\nUm minuto de silêncio. Reviso uma decisão do dia em que a régua pode ter sido diferente para mim e para os outros, sem me condenar por isso — só reconhecendo, o que já é o primeiro movimento de correção.\n\nNão levo certeza sobre o que vem, levo alinhamento com o que já sei ser verdadeiro."
-  },
-  {
-    "lei": "Honestidade nos negócios e na fala",
-    "exercicio": "Flexão de braço — algumas repetições, ritmo confortável",
-    "reza": "Não peço nada agora — só reconheço o que já é verdade, com ou sem mim: a ordem por trás das coisas.\n\nA sabedoria milenar ensina que a honestidade não é apenas uma regra externa, é economia da própria mente: mentir exige manter duas versões da realidade funcionando ao mesmo tempo. A palavra reta poupa esse custo. Hoje, vale notar onde suavizei um número, um prazo, uma resposta, só para evitar um desconforto passageiro.\n\nUm minuto de silêncio. Localizo uma frase do dia que poderia ter sido mais direta — sem me punir por isso, só registrando o custo de não ter sido.\n\nO que fica é simples: ordem reconhecida, mente mais quieta."
-  },
-  {
-    "lei": "Domínio próprio",
-    "exercicio": "Prancha — 20-40 segundos, sem forçar",
-    "reza": "Desacelero por um momento e me coloco diante do que é maior do que qualquer urgência de hoje.\n\nA sabedoria milenar ensina o domínio próprio como a lógica moral da longevidade: reação imediata custa caro, resposta pensada rende. Isso vale para a fala e também para o corpo — cuidar de mim aos 45 anos não é vaidade, é a mesma lógica de domínio próprio aplicada ao que sustenta tudo o resto.\n\nUm minuto de silêncio. Antes de reagir a algo que ainda está por vir hoje, noto o impulso primeiro, sem agir sobre ele — só observando que ele existe e que eu posso escolher depois.\n\nFico com o essencial: menos reação, mais direção."
-  },
-  {
-    "lei": "Respeito à propriedade alheia (tempo e atenção)",
-    "exercicio": "Agachamento — algumas repetições, ritmo confortável",
-    "reza": "Um minuto fora da correria para reconhecer algo mais estável do que a lista de tarefas: a ordem que não depende dela.\n\nA sabedoria milenar ensina o respeito à propriedade alheia para além dos bens materiais — tempo e atenção também pertencem a quem os tem. Tomar o tempo de alguém sem necessidade real segue a mesma lógica que a lei condena, só que em outra moeda. Hoje vale notar uma interação em que pedi atenção de alguém além do necessário.\n\nUm minuto de silêncio. Reconheço o tempo como algo finito e alheio por padrão, não meu por padrão — e ajusto o que puder a partir disso.\n\nVolto ao dia levando menos peso do que trouxe."
-  }
-]
+{
+  "exercicios": [
+    "Alongamento rápido — pescoço, ombros e costas (1-2 min)",
+    "Caminhada/levantar — alguns minutos de pé, longe da tela",
+    "Respiração/postura — respiração consciente e correção de postura",
+    "Flexão de braço — algumas repetições, ritmo confortável (respire continuamente, sem prender a respiração)",
+    "Prancha — 20-40 segundos, sem forçar (respire continuamente, sem prender a respiração)",
+    "Agachamento — algumas repetições, ritmo confortável (respire continuamente, sem prender a respiração)"
+  ],
+  "rezas": [
+    {
+      "lei": "Recusa à idolatria",
+      "texto": "Por um instante, saio do automático e reconheço a Fonte — não como algo distante, mas como a ordem racional que sustenta tudo o que existe.\n\nA sabedoria milenar ensina que recusar a idolatria é recusar prender a mente a coisas finitas: um resultado, uma opinião, o humor de alguém, o número de um relatório. Hoje isso significa notar onde estou dando a um problema pequeno o peso de um absoluto — tratando uma reunião difícil ou uma meta apertada como se decidissem tudo — e devolver a ele o tamanho real.\n\nParo um minuto. Sinto a respiração, sem forçar. Deixo a mente nomear o que está pesando agora, sem julgar, e solto — não porque o problema desapareceu, mas porque ele não precisa ser carregado com esse peso extra.\n\nSigo com mais clareza do que antes: não por proteção pedida, mas por confiança construída."
+    },
+    {
+      "lei": "Respeito à vida",
+      "texto": "Antes de seguir, um ponto de ordem: existe uma lógica que sustenta o que existe, e por um minuto eu me alinho a ela.\n\nA sabedoria milenar ensina o respeito à vida como o reconhecimento de que cada pessoa é um fim em si mesma, nunca um meio. Na prática, isso aparece em coisas pequenas: tratar quem me atende, quem trabalha comigo, quem depende de mim, como obstáculo ou recurso a ser gerenciado, em vez de reconhecer nela o mesmo peso que reconheço em mim.\n\nParo um minuto. Reviso, sem julgamento, algum momento de hoje em que fui rápido demais com alguém — e ajusto internamente, não por culpa, mas por clareza sobre o que é estrutural: essa pessoa tem o mesmo direito de ser fim, não meio.\n\nVolto ao meu dia com um grau a mais de lucidez — isso já é suficiente."
+    },
+    {
+      "lei": "Justiça como necessidade estrutural",
+      "texto": "Paro o que estou fazendo e volto a um fato simples: há uma Inteligência que precede qualquer problema que eu tenha hoje.\n\nA sabedoria milenar ensina que a justiça não é sentimento, é estrutura: sem uma régua aplicada igualmente a todos, inclusive a mim mesmo, qualquer sistema — uma casa, um trabalho, uma relação — desaba por dentro. Hoje, isso significa perguntar com honestidade onde estou cobrando dos outros um padrão que não aplico a mim.\n\nUm minuto de silêncio. Reviso uma decisão do dia em que a régua pode ter sido diferente para mim e para os outros, sem me condenar por isso — só reconhecendo, o que já é o primeiro movimento de correção.\n\nNão levo certeza sobre o que vem, levo alinhamento com o que já sei ser verdadeiro."
+    },
+    {
+      "lei": "Honestidade nos negócios e na fala",
+      "texto": "Não peço nada agora — só reconheço o que já é verdade, com ou sem mim: a ordem por trás das coisas.\n\nA sabedoria milenar ensina que a honestidade não é apenas uma regra externa, é economia da própria mente: mentir exige manter duas versões da realidade funcionando ao mesmo tempo. A palavra reta poupa esse custo. Hoje, vale notar onde suavizei um número, um prazo, uma resposta, só para evitar um desconforto passageiro.\n\nUm minuto de silêncio. Localizo uma frase do dia que poderia ter sido mais direta — sem me punir por isso, só registrando o custo de não ter sido.\n\nO que fica é simples: ordem reconhecida, mente mais quieta."
+    },
+    {
+      "lei": "Domínio próprio",
+      "texto": "Desacelero por um momento e me coloco diante do que é maior do que qualquer urgência de hoje.\n\nA sabedoria milenar ensina o domínio próprio como a lógica moral da longevidade: reação imediata custa caro, resposta pensada rende. Isso vale para a fala e também para o corpo — cuidar de mim aos 45 anos não é vaidade, é a mesma lógica de domínio próprio aplicada ao que sustenta tudo o resto.\n\nUm minuto de silêncio. Antes de reagir a algo que ainda está por vir hoje, noto o impulso primeiro, sem agir sobre ele — só observando que ele existe e que eu posso escolher depois.\n\nFico com o essencial: menos reação, mais direção."
+    },
+    {
+      "lei": "Respeito à propriedade alheia (tempo e atenção)",
+      "texto": "Um minuto fora da correria para reconhecer algo mais estável do que a lista de tarefas: a ordem que não depende dela.\n\nA sabedoria milenar ensina o respeito à propriedade alheia para além dos bens materiais — tempo e atenção também pertencem a quem os tem. Tomar o tempo de alguém sem necessidade real segue a mesma lógica que a lei condena, só que em outra moeda. Hoje vale notar uma interação em que pedi atenção de alguém além do necessário.\n\nUm minuto de silêncio. Reconheço o tempo como algo finito e alheio por padrão, não meu por padrão — e ajusto o que puder a partir disso.\n\nVolto ao dia levando menos peso do que trouxe."
+    },
+    {
+      "lei": "Precisão da linguagem (contra a banalização da palavra)",
+      "texto": "Um momento antes de continuar: reconheço uma ordem racional maior do que a pressa do dia.\n\nA sabedoria milenar trata a palavra como algo sério — usá-la de forma vazia ou vulgar não é questão de polidez, é questão de precisão: linguagem descuidada produz pensamento descuidado. Hoje vale notar onde usei uma palavra forte demais, ou de menos, só por hábito, sem medir o que ela realmente carregava.\n\nUm minuto de silêncio. Escolho mentalmente uma frase que disse hoje sem pensar, e reformulo em silêncio como diria com mais precisão.\n\nSigo levando a linguagem a sério, não por regra, mas porque pensar bem exige falar bem."
+    },
+    {
+      "lei": "Recusa à crueldade desnecessária (aplicada ao próprio corpo e à atenção)",
+      "texto": "Paro por um instante e reconheço algo estável por trás da correria: uma ordem que não pede pressa para ser verdadeira.\n\nA sabedoria milenar proíbe tirar de um ser vivo mais do que o necessário, ainda em sofrimento — o princípio por trás disso é a recusa à crueldade desnecessária, inclusive com o próprio corpo. Hoje isso aparece em coisas simples: ignorar um sinal de cansaço, empurrar o corpo além do razoável, ou consumir informação de forma tão voraz que não sobra espaço para digerir nada.\n\nUm minuto de silêncio. Reviso se hoje tratei meu corpo ou minha atenção com mais pressa do que cuidado.\n\nVolto com um ajuste pequeno, sem drama: um pouco menos de pressa, um pouco mais de cuidado."
+    },
+    {
+      "lei": "Recusa à idolatria (validação alheia)",
+      "texto": "Antes de seguir, reconheço a Fonte como algo mais estável do que qualquer opinião externa sobre mim hoje.\n\nA sabedoria milenar ensina que idolatria também é prender a identidade a algo finito — inclusive à aprovação alheia. Buscar validação como se fosse a prova final de que algo deu certo é dar a outra pessoa um poder que não é dela. Hoje vale notar onde estou esperando um \"sim\" externo para me sentir seguro sobre uma decisão que já tomei com razão.\n\nUm minuto de silêncio. Reconheço uma decisão recente que já sei ser correta, independente de quem concordar.\n\nSigo apoiado em algo mais sólido do que aprovação: no próprio raciocínio."
+    },
+    {
+      "lei": "Respeito à vida (autocuidado)",
+      "texto": "Um instante fora do ritmo do dia para reconhecer a ordem que sustenta até a própria capacidade de continuar.\n\nA sabedoria milenar trata respeito à vida como algo que começa em casa: o próprio corpo também é vida a ser respeitada, não só a dos outros. Aos 45 anos, com um corpo que já pede atenção, cuidar dele não é medo — é a mesma lógica de respeito à vida aplicada para dentro, sem alarme, só com atenção real.\n\nUm minuto de silêncio. Reconheço, sem drama, o que o corpo está pedindo agora — talvez só essa pausa mesmo.\n\nVolto ao dia com o corpo incluído na equação, não esquecido dela."
+    },
+    {
+      "lei": "Justiça (régua igual para si mesmo)",
+      "texto": "Paro e reconheço, por um instante, uma ordem que não depende de eu estar certo o tempo todo.\n\nA sabedoria milenar trata justiça como régua igual para todos — e isso inclui não aplicar a mim uma régua mais dura do que aplicaria a qualquer outra pessoa. Hoje vale notar onde estou tratando um erro pequeno meu como se fosse imperdoável, algo que jamais diria sobre o erro equivalente de outra pessoa.\n\nUm minuto de silêncio. Localizo algo que cobrei demais de mim hoje, e aplico a mesma régua justa que aplicaria a alguém que respeito.\n\nSigo com a régua corrigida: justa, não inflacionada."
+    },
+    {
+      "lei": "Honestidade (consigo mesmo)",
+      "texto": "Reconheço, sem pedir nada, a ordem que continua verdadeira mesmo quando eu prefiro não olhar para ela.\n\nA sabedoria milenar ensina honestidade também voltada para dentro: a mentira mais cara costuma ser a que contamos a nós mesmos para evitar um desconforto. Hoje vale perguntar onde estou chamando de \"não é hora ainda\" algo que já sei que precisa ser enfrentado.\n\nUm minuto de silêncio. Nomeio, só para mim, uma coisa que sei e ainda não admiti abertamente.\n\nSigo mais leve não porque resolvi tudo, mas porque parei de fingir que não sabia."
+    },
+    {
+      "lei": "Domínio próprio (direção da atenção)",
+      "texto": "Um momento fora do fluxo automático de notificações e tarefas para reconhecer algo que não pede a minha pressa.\n\nA sabedoria milenar liga domínio próprio à direção da atenção, não só à reação emocional: onde a atenção vai, a energia segue. Hoje vale notar quantas vezes a atenção foi puxada por algo que não escolhi, em vez de dirigida por mim.\n\nUm minuto de silêncio. Escolho, agora, para onde a atenção vai no próximo bloco de tempo — antes que outra coisa escolha por mim.\n\nSigo com a direção um pouco mais minha do que estava há um minuto."
+    },
+    {
+      "lei": "Respeito à propriedade alheia (crédito pelo trabalho)",
+      "texto": "Reconheço, por um instante, uma ordem que não depende de quem recebe o crédito por ela.\n\nA sabedoria milenar estende o respeito à propriedade alheia ao reconhecimento do trabalho de quem contribuiu — atribuir a si mesmo o que veio de outra pessoa segue a mesma lógica que a lei condena, só que em reputação, não em bens. Hoje vale notar se dei o crédito certo para alguém que ajudou em algo que apresentei como só meu.\n\nUm minuto de silêncio. Lembro de uma contribuição alheia que talvez eu não tenha reconhecido o suficiente.\n\nSigo o dia com as contas mais certas do que estavam."
+    },
+    {
+      "lei": "Justiça (estrutura e limites claros)",
+      "texto": "Paro por um instante e reconheço uma ordem que não precisa da minha aprovação para ser verdadeira.\n\nA sabedoria milenar ensina que sem estrutura — regras claras, aplicadas com consistência — qualquer sistema decide por impulso, não por princípio. Hoje vale perguntar onde estou decidindo caso a caso algo que já deveria ter virado regra pessoal, evitando a mesma negociação interna todo dia.\n\nUm minuto de silêncio. Identifico uma decisão repetida que já poderia virar regra fixa, poupando a energia de decidir de novo amanhã.\n\nSigo com uma decisão a menos para tomar no automático de amanhã."
+    },
+    {
+      "lei": "Encerramento do dia",
+      "texto": "Ao fechar esse ciclo de horas, reconheço a mesma ordem que estava presente desde o primeiro lembrete do dia — ela não foi embora entre um e outro.\n\nA sabedoria milenar trata o fim do dia como o momento certo para revisar sem se punir: olhar para trás não para julgar, mas para ver o que se sustentou de fato. Hoje, isso significa passar rapidamente pelas horas e notar, sem exagero, o que foi alinhado e o que foi só reação.\n\nUm minuto de silêncio, um pouco mais longo que os outros do dia. Deixo o dia se assentar, sem revisar cada detalhe — só notando o tom geral que ele teve.\n\nEncerro com o essencial: ordem reconhecida em cada hora, mente mais quieta no fim dela."
+    }
+  ]
+}
