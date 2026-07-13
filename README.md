@@ -38,7 +38,8 @@ tema novo seja publicado sem explicação, exemplo ou prática.
   rotacionando por dia.
 - **20h — encerramento** (reza longa): banco de 4 encerramentos,
   rotacionando por dia.
-- **Demais 13 horas — rezas curtas** (1 parágrafo): banco de 29 (inclui
+- **Demais 13 horas — rezas curtas** (2 parágrafos, ~90s de leitura
+  somando as camadas de apoio): banco de 29 (inclui
   três "perguntas abertas"), em bloco consecutivo que desliza um índice
   por dia. Nada se repete no mesmo dia e o conjunto muda de um dia para o
   outro.
@@ -56,13 +57,7 @@ tema novo seja publicado sem explicação, exemplo ou prática.
 
 ## Configuração necessária
 
-Na VPS, crie o `.env` local a partir do exemplo:
-
-```sh
-cp .env.example .env
-```
-
-Depois preencha:
+Na VPS, crie o arquivo `.env` na raiz do projeto e preencha:
 
 - `TELEGRAM_BOT_TOKEN` — token do bot (via @BotFather).
 - `TELEGRAM_CHAT_ID` — id do chat que vai receber as mensagens.

@@ -84,14 +84,18 @@ Leituras que sustentam esta filosofia: `docs/leituras.md`.
 
 ## Formato da reza longa (âncoras: 5h, 12h, 20h)
 
-4 parágrafos, ~200-300 palavras:
+5 parágrafos, ~300-380 palavras (2-3 minutos de leitura reflexiva):
 
 1. **Invocação racional** — reconhecimento da Fonte/Infinito, nunca um
    pedido.
 2. **Corpo** — uma das 7 Leis de Noé traduzida em lógica prática, com
    exemplo concreto do cotidiano de quem trabalha e pensa muito.
-3. **Prática** — convite de 1 minuto de Hitbodedut, sem ritual fixo.
-4. **Fechamento** — registro de "pureza e confiança", nunca súplica ou
+3. **Aprofundamento** — o fundamento racional da lei por um segundo
+   ângulo: o mecanismo, o custo de violá-la ou o que ela liberta. É o
+   parágrafo que a explicação acessível não cobre — nunca repete o
+   exemplo do apoio.
+4. **Prática** — convite de 1 minuto de Hitbodedut, sem ritual fixo.
+5. **Fechamento** — registro de "pureza e confiança", nunca súplica ou
    pedido de proteção.
 
 Regras: nunca repetir a mesma Lei de Noé do disparo anterior; variar
@@ -100,12 +104,13 @@ espírito).
 
 ## Formato da reza curta (demais horas)
 
-1 parágrafo, ~50-90 palavras, com três movimentos na mesma frase de
-respiração: micro-invocação racional, uma Lei de Noé em lógica prática com
-exemplo do cotidiano, e uma micro-prática ou fechamento de "pureza e
+2 parágrafos, ~120-160 palavras (~90 segundos de leitura somando as camadas
+de apoio): o primeiro traz micro-invocação racional e uma Lei de Noé em
+lógica prática, por um ângulo diferente do exemplo já dado no apoio; o
+segundo traz a micro-prática da hora e o fechamento de "pureza e
 confiança". Mesmas regras da longa: nunca súplica, nunca medo, racional
-sobre místico. No banco de 26, duas curtas adjacentes (inclusive na volta
-do índice 26 para o 1) nunca tratam da mesma lei, para que horas
+sobre místico. No banco de 29, duas curtas adjacentes (inclusive na volta
+do índice 29 para o 1) nunca tratam da mesma lei, para que horas
 consecutivas não repitam tema.
 
 ### Banco de aberturas
