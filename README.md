@@ -6,15 +6,15 @@ Monoteísmo Racional e Ética Universal". Mesma grade nos 7 dias da semana.
 
 ## Como funciona
 
-Um **GitHub Action agendado** (`.github/workflows/lembrete-horario.yml`)
-roda de hora em hora e manda a mensagem direto para um bot do Telegram —
-não depende de nenhuma sessão do Claude estar aberta.
+Um **cron da VPS** roda de hora em hora, das 5h às 20h em horário de Brasília,
+e manda a mensagem direto para um bot do Telegram.
 
 1. `scripts/send-lembrete.mjs` calcula a hora e o dia atuais em Brasília e
    escolhe o texto em `config/rezas.json`.
-2. Envia a mensagem (exercício + apoio acessível + reza) via API do Telegram
-   (`sendMessage`), usando os secrets `TELEGRAM_BOT_TOKEN` e
-   `TELEGRAM_CHAT_ID` configurados no repositório.
+2. `scripts/enviar-cron.sh <hora>` valida o conteúdo, carrega o `.env` local e
+   chama o envio com a hora pretendida pelo agendamento.
+3. O envio usa a API do Telegram (`sendMessage`) com `TELEGRAM_BOT_TOKEN` e
+   `TELEGRAM_CHAT_ID` definidos em `/home/vps/projetos/reza-e-exercicio/.env`.
 
 ### Formato de cada mensagem
 
@@ -27,8 +27,8 @@ Cada reflexão é apresentada em camadas para facilitar a compreensão:
 - **Faça agora** — uma ação pequena para aplicar imediatamente.
 - **Reflexão** — o texto completo, para aprofundar depois de entender a ideia.
 
-Os 60 temas têm explicações próprias em `config/explicacoes.json`. O workflow
-executa `scripts/validate-content.mjs` antes de cada envio para impedir que um
+Os 60 temas têm explicações próprias em `config/explicacoes.json`. O wrapper
+do cron executa `scripts/validate-content.mjs` antes de cada envio para impedir que um
 tema novo seja publicado sem explicação, exemplo ou prática.
 
 ### Grade do dia
@@ -54,19 +54,15 @@ tema novo seja publicado sem explicação, exemplo ou prática.
   semana** (banco `encerramentosSemanais`), no espírito do cheshbon
   hanefesh — revisar a semana inteira e escolher um ajuste para a próxima.
 
-### Keepalive
-
-O GitHub desativa workflows agendados após 60 dias sem atividade no
-repositório. O modelo `docs/keepalive-workflow.yml` faz um commit pequeno
-todo mês (arquivo `.github/keepalive`) para manter o lembrete vivo
-indefinidamente.
-
-Neste repositório, o workflow já está ativo em
-`.github/workflows/keepalive.yml`.
-
 ## Configuração necessária
 
-No GitHub: **Settings → Secrets and variables → Actions**, criar:
+Na VPS, crie o `.env` local a partir do exemplo:
+
+```sh
+cp .env.example .env
+```
+
+Depois preencha:
 
 - `TELEGRAM_BOT_TOKEN` — token do bot (via @BotFather).
 - `TELEGRAM_CHAT_ID` — id do chat que vai receber as mensagens.
@@ -81,17 +77,18 @@ No GitHub: **Settings → Secrets and variables → Actions**, criar:
   prática de cada tema.
 - `config/exercicios.md` — rodízio de exercícios e contexto de saúde.
 - `scripts/send-lembrete.mjs` — escolhe e envia a mensagem do horário.
-- `.github/workflows/lembrete-horario.yml` — agenda o disparo horário.
+- `scripts/enviar-cron.sh` — carrega `.env`, valida conteúdo e envia com a
+  hora pretendida pelo cron.
 - `docs/leituras.md` — a linhagem intelectual da filosofia: Maimônides,
   estoicos, Mussar, 7 Leis de Noé, com ordem de leitura sugerida.
-- `.github/workflows/keepalive.yml` — commit mensal anti-desativação
-  (modelo em `docs/keepalive-workflow.yml`).
 
 ## Comportamento de horário
 
-- O envio só ocorre entre **5h e 20h reais de Brasília**.
-- Se o GitHub atrasar e o job começar às **21h**, o script agora **não**
-  reaproveita a mensagem das 20h.
+- O envio só é agendado entre **5h e 20h em Brasília**.
+- Cada linha do cron passa explicitamente a hora pretendida (`5`, `6`, ...,
+  `20`), então um atraso de alguns minutos não troca a mensagem de horário.
+- O wrapper tenta enviar até 3 vezes, com intervalo de 5 minutos entre
+  tentativas.
 - Para teste manual fora da janela, use `DRY_RUN=1` com uma hora simulada.
 
 ## Contexto de saúde (para calibrar intensidade dos exercícios)
@@ -109,8 +106,5 @@ DRY_RUN=1 node scripts/send-lembrete.mjs          # hora/dia atuais
 DRY_RUN=1 node scripts/send-lembrete.mjs 12       # simula 12h de hoje
 DRY_RUN=1 node scripts/send-lembrete.mjs 9 20650  # simula 9h de outro dia
 node scripts/validate-content.mjs                  # valida os 60 temas
+bash scripts/enviar-cron.sh 12                     # valida, carrega .env e envia 12h
 ```
-
-Com os secrets configurados, rode o workflow pela aba **Actions** do
-GitHub (`workflow_dispatch`), ou peça para o Claude disparar via
-`actions_run_trigger`.
