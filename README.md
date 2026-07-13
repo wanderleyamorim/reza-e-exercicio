@@ -46,10 +46,8 @@ repositório. O modelo `docs/keepalive-workflow.yml` faz um commit pequeno
 todo mês (arquivo `.github/keepalive`) para manter o lembrete vivo
 indefinidamente.
 
-**Passo manual pendente**: copiar `docs/keepalive-workflow.yml` para
-`.github/workflows/keepalive.yml` (o token do Claude não tem permissão
-para criar arquivos de workflow — precisa ser feito pela interface do
-GitHub ou por um push seu).
+Neste repositório, o workflow já está ativo em
+`.github/workflows/keepalive.yml`.
 
 ## Configuração necessária
 
@@ -71,6 +69,13 @@ No GitHub: **Settings → Secrets and variables → Actions**, criar:
   estoicos, Mussar, 7 Leis de Noé, com ordem de leitura sugerida.
 - `.github/workflows/keepalive.yml` — commit mensal anti-desativação
   (modelo em `docs/keepalive-workflow.yml`).
+
+## Comportamento de horário
+
+- O envio só ocorre entre **5h e 20h reais de Brasília**.
+- Se o GitHub atrasar e o job começar às **21h**, o script agora **não**
+  reaproveita a mensagem das 20h.
+- Para teste manual fora da janela, use `DRY_RUN=1` com uma hora simulada.
 
 ## Contexto de saúde (para calibrar intensidade dos exercícios)
 

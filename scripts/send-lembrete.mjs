@@ -3,26 +3,64 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const TIME_ZONE = "America/Sao_Paulo";
+const DAY_MS = 86_400_000;
 
 const cfg = JSON.parse(
   readFileSync(join(__dirname, "..", "config", "rezas.json"), "utf-8")
 );
 
-// Hora e dia em Brasília (UTC-3; o Brasil não adota mais horário de verão).
-// Para testar: node send-lembrete.mjs [hora 0-23] [índice do dia]
-const agoraBrasilia = new Date(Date.now() - 3 * 60 * 60 * 1000);
-const horaBrasilia =
-  process.argv[2] !== undefined
-    ? Number(process.argv[2])
-    : agoraBrasilia.getUTCHours();
-const dia =
-  process.argv[3] !== undefined
-    ? Number(process.argv[3])
-    : Math.floor(agoraBrasilia.getTime() / 86_400_000);
+function getBrasiliaParts(date = new Date()) {
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    weekday: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  });
 
-// Janela 5h-20h -> slots 0-15. O clamp absorve atrasos do cron do GitHub:
-// um disparo que passe da hora ainda envia a mensagem da janela mais próxima.
-const slot = Math.min(Math.max(horaBrasilia - 5, 0), 15);
+  const parts = Object.fromEntries(
+    formatter
+      .formatToParts(date)
+      .filter((part) => part.type !== "literal")
+      .map((part) => [part.type, part.value])
+  );
+
+  return {
+    year: Number(parts.year),
+    month: Number(parts.month),
+    dayOfMonth: Number(parts.day),
+    hour: Number(parts.hour),
+  };
+}
+
+// Para testar: node send-lembrete.mjs [hora 0-23] [índice do dia]
+const horaForcada = process.argv[2];
+const diaForcado = process.argv[3];
+const agoraBrasilia = getBrasiliaParts();
+const horaBrasilia =
+  horaForcada !== undefined ? Number(horaForcada) : agoraBrasilia.hour;
+const dia =
+  diaForcado !== undefined
+    ? Number(diaForcado)
+    : Math.floor(
+        Date.UTC(
+          agoraBrasilia.year,
+          agoraBrasilia.month - 1,
+          agoraBrasilia.dayOfMonth
+        ) / DAY_MS
+      );
+const slot = horaBrasilia - 5;
+
+if (slot < 0 || slot > 15) {
+  console.log(
+    `Fora da janela de envio em ${TIME_ZONE}: ${horaBrasilia}h. Nenhuma mensagem enviada.`
+  );
+  process.exit(0);
+}
 
 // Âncoras com reza completa: 5h (abertura), 12h (longa), 20h (encerramento).
 // As outras 13 horas recebem rezas curtas: um bloco de 13 consecutivas do
@@ -33,7 +71,7 @@ const slot = Math.min(Math.max(horaBrasilia - 5, 0), 15);
 // (banco `contemplativas`); no domingo às 20h entra o balanço da semana
 // (banco `encerramentosSemanais`), no espírito do cheshbon hanefesh.
 const SLOTS_CURTA = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14];
-const diaSemana = new Date(dia * 86_400_000).getUTCDay(); // 0=domingo, 6=sábado
+const diaSemana = new Date(dia * DAY_MS).getUTCDay(); // 0=domingo, 6=sábado
 const semana = Math.floor(dia / 7);
 
 let reza;
