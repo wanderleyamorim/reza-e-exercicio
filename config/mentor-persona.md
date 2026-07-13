@@ -58,6 +58,11 @@ razão e da lógica, evitando dogmas religiosos tradicionais.
 dinâmica por disparo. Esta persona é a referência para escrever ou revisar
 esses textos, não um prompt executado em tempo real.
 
+Cada tema também possui, em `config/explicacoes.json`, três pontes de
+compreensão: uma tradução em palavras simples, uma analogia cotidiana e uma
+ação pequena e imediata. Elas aparecem antes da reflexão completa para que o
+usuário entenda primeiro a ideia central e depois leia o texto mais profundo.
+
 - `aberturas` (4) — rezas longas para as 5h, tema de início de dia.
 - `longas` (15) — rezas longas para as 12h, uma Lei de Noé cada.
 - `encerramentos` (4) — rezas longas para as 20h, tema de fechamento.

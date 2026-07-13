@@ -1,8 +1,8 @@
 # reza-e-exercicio
 
-Lembrete de hora em hora, das 5h às 20h (horário de Brasília), com dois
-blocos: um exercício rápido e uma reza no tom de "Mentor de Monoteísmo
-Racional e Ética Universal". Mesma grade nos 7 dias da semana.
+Lembrete de hora em hora, das 5h às 20h (horário de Brasília), com um
+exercício rápido, uma explicação acessível e uma reza no tom de "Mentor de
+Monoteísmo Racional e Ética Universal". Mesma grade nos 7 dias da semana.
 
 ## Como funciona
 
@@ -12,9 +12,24 @@ não depende de nenhuma sessão do Claude estar aberta.
 
 1. `scripts/send-lembrete.mjs` calcula a hora e o dia atuais em Brasília e
    escolhe o texto em `config/rezas.json`.
-2. Envia a mensagem (exercício + reza) via API do Telegram
+2. Envia a mensagem (exercício + apoio acessível + reza) via API do Telegram
    (`sendMessage`), usando os secrets `TELEGRAM_BOT_TOKEN` e
    `TELEGRAM_CHAT_ID` configurados no repositório.
+
+### Formato de cada mensagem
+
+Cada reflexão é apresentada em camadas para facilitar a compreensão:
+
+- **Movimento** — o exercício curto daquele horário.
+- **Tema** — o princípio central da reflexão.
+- **Em palavras simples** — tradução direta, sem linguagem filosófica.
+- **Exemplo do dia a dia** — analogia concreta com situações comuns.
+- **Faça agora** — uma ação pequena para aplicar imediatamente.
+- **Reflexão** — o texto completo, para aprofundar depois de entender a ideia.
+
+Os 60 temas têm explicações próprias em `config/explicacoes.json`. O workflow
+executa `scripts/validate-content.mjs` antes de cada envio para impedir que um
+tema novo seja publicado sem explicação, exemplo ou prática.
 
 ### Grade do dia
 
@@ -62,6 +77,8 @@ No GitHub: **Settings → Secrets and variables → Actions**, criar:
   usados para escrever as rezas.
 - `config/rezas.json` — bancos de texto: `exercicios`, `aberturas`,
   `longas`, `encerramentos`, `curtas`.
+- `config/explicacoes.json` — tradução simples, exemplo cotidiano e ação
+  prática de cada tema.
 - `config/exercicios.md` — rodízio de exercícios e contexto de saúde.
 - `scripts/send-lembrete.mjs` — escolhe e envia a mensagem do horário.
 - `.github/workflows/lembrete-horario.yml` — agenda o disparo horário.
@@ -91,6 +108,7 @@ Sem enviar nada (imprime a mensagem no terminal):
 DRY_RUN=1 node scripts/send-lembrete.mjs          # hora/dia atuais
 DRY_RUN=1 node scripts/send-lembrete.mjs 12       # simula 12h de hoje
 DRY_RUN=1 node scripts/send-lembrete.mjs 9 20650  # simula 9h de outro dia
+node scripts/validate-content.mjs                  # valida os 60 temas
 ```
 
 Com os secrets configurados, rode o workflow pela aba **Actions** do

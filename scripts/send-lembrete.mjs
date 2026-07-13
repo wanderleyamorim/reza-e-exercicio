@@ -1,6 +1,10 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import {
+  formatarMensagem,
+  TELEGRAM_TEXT_LIMIT,
+} from "./message-format.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const TIME_ZONE = "America/Sao_Paulo";
@@ -8,6 +12,9 @@ const DAY_MS = 86_400_000;
 
 const cfg = JSON.parse(
   readFileSync(join(__dirname, "..", "config", "rezas.json"), "utf-8")
+);
+const explicacoes = JSON.parse(
+  readFileSync(join(__dirname, "..", "config", "explicacoes.json"), "utf-8")
 );
 
 function getBrasiliaParts(date = new Date()) {
@@ -102,7 +109,20 @@ const exercicio =
     ? cfg.exercicios[dia % EXERCICIOS_LEVES]
     : cfg.exercicios[(dia + slot) % cfg.exercicios.length];
 
-const texto = `⏰ ${exercicio}\n\n${reza.texto}`;
+const apoio = explicacoes[reza.lei];
+if (!apoio) {
+  console.error(`Falta explicação acessível para o tema: ${reza.lei}`);
+  process.exit(1);
+}
+
+const texto = formatarMensagem({ exercicio, reza, apoio });
+
+if (texto.length > TELEGRAM_TEXT_LIMIT) {
+  console.error(
+    `Mensagem excede o limite do Telegram: ${texto.length} caracteres (${reza.lei}).`
+  );
+  process.exit(1);
+}
 
 if (process.env.DRY_RUN === "1") {
   console.log(`[dry-run] slot ${slot} (${horaBrasilia}h), dia ${dia}, ${reza.lei}`);
