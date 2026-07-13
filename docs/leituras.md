@@ -28,12 +28,11 @@ O primeiro a comprar. Um imperador escrevendo lembretes racionais para si
 mesmo, várias vezes ao dia, sobre a ordem (logos) que sustenta o cosmos —
 é literalmente este repositório, escrito à mão no século II.
 
-**Edição**: **Edipro, tradução de Edson Bini** — tradutor de carreira das
-obras completas de Platão e Aristóteles; edição com introdução, glossário
-estoico e notas de tradução. Evite edições sem nome de tradutor na capa
-ou na ficha catalográfica: costuma ser sinal de tradução indireta.
+**Edição**: **Penguin-Companhia, tradução de Aldo Dinucci (2024)** — tradução direta do grego por um dos maiores helenistas e especialistas em estoicismo do Brasil, unindo rigor conceitual com leitura fluida e acessível. Como alternativa didática excelente, a edição da **Edipro (tradução de Edson Bini)** também é direta do grego e traz rico glossário. Evite edições baratas sem tradutor na capa: costuma ser sinal de tradução indireta.
 
-**Link**: https://edipro.com.br/livro/meditacoes/
+**Links**:
+- Edição Penguin-Companhia: https://www.companhiadasletras.com.br/livro/9788582852231/meditacoes
+- Edição Edipro: https://edipro.com.br/livro/meditacoes/
 
 ### 2. Epicteto — "Encheirídion" (O Manual)
 
@@ -41,30 +40,22 @@ A distinção entre o que depende de mim e o que não depende, em ~30
 páginas. É a base racional das rezas sobre soltar resultado e recusar o
 medo como oráculo.
 
-**Edição**: **tradução de Aldo Dinucci** (com Alfredo Julien), feita
-diretamente do grego koiné — saiu em edição bilíngue pela Editora UFS e
-existe em Kindle na Amazon como "O Encheirídion de Epicteto: Edição
-Bilíngue". Bônus: por ser projeto acadêmico público, o PDF circula
-legalmente na internet — dá para ler antes de comprar. Lembrete: não
-confundir com "A Arte de Viver" (adaptação, ver regra geral).
+**Edição**: **tradução de Aldo Dinucci** (com Alfredo Julien), feita diretamente do grego koiné. Para leitura digital gratuita, o PDF acadêmico bilíngue da Editora UFS circula legalmente. Como edição física comercial, a **Penguin-Companhia lançou "Manual do estoicismo" (2025)** com a mesma tradução consagrada de Dinucci, agregando também as *Diatribes* e fragmentos do filósofo. Lembrete: não confundir com "A Arte de Viver" (adaptação livre).
 
 **Links**:
-- PDF da UFS: https://seer.ufs.br/index.php/prometeus/article/download/815/720/0
-- Página do artigo: https://periodicos.ufs.br/prometeus/article/view/816
+- PDF acadêmico da UFS: https://seer.ufs.br/index.php/prometeus/article/download/815/720/0
+- Edição física Penguin-Companhia: https://www.companhiadasletras.com.br/livro/9788582852651/manual-do-estoicismo
 
 ### 3. Sêneca — "Cartas a Lucílio"
 
 Inclui a revisão noturna sem autopunição — o encerramento das 20h deste
 projeto tem essa assinatura.
 
-**Edição**: a referência definitiva em português é a da **Fundação
-Calouste Gulbenkian (Portugal), tradução de J. A. Segurado e Campos** —
-completa (as 124 cartas, ~720 páginas), direta do latim. É cara e às
-vezes difícil de achar no Brasil; como porta de entrada mais barata,
-qualquer *seleção* de cartas serve (ex.: "Aprendendo a Viver", L&PM),
-desde que traga o nome do tradutor e indique tradução do latim.
+**Edição**: A referência acadêmica monumental em língua portuguesa é a da **Fundação Calouste Gulbenkian (Portugal), tradução de J. A. Segurado e Campos** — completa e direta do latim. Por ser em português europeu e de alto custo no Brasil, a melhor alternativa comercial brasileira para a versão integral é a edição em volumes da **Editora Montecristo** ("Cartas de um Estoico"). Como porta de entrada de bolso prática e acessível, a antologia **"Aprendendo a Viver" (L&PM Pocket)**, com tradução direta do latim por Lúcia Sá Rebello e Ellen Vranas, é excelente.
 
-**Link**: https://gulbenkian.pt/publications/cartas-a-lucilio-8a-ed/
+**Links**:
+- Edição Calouste Gulbenkian: https://gulbenkian.pt/publications/cartas-a-lucilio-8a-ed/
+- Edição de bolso L&PM Pocket (Seleção): https://www.lpm.com.br
 
 ### 4. Pirkei Avot ("Ética dos Pais")
 
@@ -95,51 +86,37 @@ hebraico, com notas explicativas e introdução ao pensamento do Rambam.
 
 ### 6. Maimônides — "Hilchot Deot" (Leis do Caráter)
 
-O "caminho do meio": ética como calibragem racional do caráter,
-incluindo cuidado com corpo e saúde como dever, não vaidade. Combina com
-o bloco de exercícios deste projeto. É curto.
+O "caminho do meio": ética como calibragem racional do caráter, incluindo cuidado com corpo e saúde como dever, não vaidade. Combina com o bloco de exercícios deste projeto. É curto.
 
-**Edição**: faz parte do Mishnê Torá; verificar na Sêfer o volume
-disponível em português. Em inglês, o texto completo está gratuito em
-chabad.org e sefaria.org.
+**Edição**: A principal edição adaptada em português é **"Íntegro: Hilchot Deot" (Editora Sêfer)**, com tradução e comentários práticos do Rabino Isaac Dichi. Para quem busca a tradução literal direta do texto de Maimônides, a referência física é o volume **"Mishnê Torá - Livro do Conhecimento" (Volume 1)**, também da Editora Sêfer.
 
 **Links**:
-- Volume com Hilchot Deot na Sêfer: https://sefer.com.br/products/integro-hilchot-deot
+- Edição comentada na Sêfer: https://sefer.com.br/products/integro-hilchot-deot
+- Livro do Conhecimento (Vol. 1) na Sêfer: https://sefer.com.br/products/mishne-tora-livro-do-conhecimento-sefer-hamada-volume-1
 - Texto em inglês no Chabad: https://www.chabad.org/library/article_cdo/aid/910314/jewish/Deot.htm
 - Texto em inglês/hebraico no Sefaria: https://www.sefaria.org/Mishneh_Torah%2C_Human_Dispositions
 
 ### 7. Sobre as 7 Leis de Noé
 
-Para ver como a tradição organiza o que aqui chamamos de "Lógica Moral
-do Universo".
+Para ver como a tradição organiza o que aqui chamamos de "Lógica Moral do Universo".
 
-**Edição**: a referência sistemática é **"The Divine Code" (Moshe
-Weiner, Ask Noah International)** — em inglês; há versão em espanhol
-("El Código Divino"), mas **não há tradução integral em português até
-onde se sabe**. Em português, o material gratuito de qualidade está em
-asknoah.org (folhetos traduzidos) e pt.chabad.org (seção sobre as Sete
-Leis). Não compre no impulso algo em português com título parecido sem
-conferir o autor.
+**Edição**: A referência jurisprudencial definitiva é **"The Divine Code" (Moshe Weiner, Ask Noah International)**, em inglês ou espanhol. Em português do Brasil, a melhor e mais respeitada introdução física é o livro **"O Caminho do Gentio Justo"** (Chaim Clorfene e Yakov Rogalsky), que sistematiza as 7 leis com clareza. Materiais gratuitos online estão disponíveis em asknoah.org e pt.chabad.org.
 
 **Links**:
-- Livro: https://asknoah.org/books/the-divine-code
-- Ebook 4ª edição: https://asknoah.org/books/the-divine-code-4th-edition-ebook
+- Livro "The Divine Code" (inglês): https://asknoah.org/books/the-divine-code
+- Ebook "The Divine Code" 4ª edição: https://asknoah.org/books/the-divine-code-4th-edition-ebook
+- Portal Bnei Noach em português: https://asknoah.org/portuguese
 
 ### 8. A prática do balanço (Mussar)
 
-**Menachem Mendel Lefin, "Cheshbon ha-Nefesh" (Contabilidade da Alma)**
-— o método clássico de balanço semanal de caráter, do qual vem o balanço
-de domingo às 20h deste projeto. Curiosidade que dá força ao projeto:
-Lefin se inspirou abertamente no sistema de 13 virtudes de **Benjamin
-Franklin**.
+**Menachem Mendel Lefin, "Cheshbon ha-Nefesh" (Contabilidade da Alma)** — o método clássico de balanço semanal de caráter, do qual vem o balanço de domingo às 20h deste projeto. Curiosidade que dá força ao projeto: Lefin se inspirou abertamente no sistema de 13 virtudes de **Benjamin Franklin**.
 
-**Edição**: em português praticamente não existe; a edição de referência
-é a bilíngue hebraico-inglês da **Feldheim**. Alternativa acessível e na
-mesma linhagem: a **"Autobiografia" de Benjamin Franklin** (qualquer
-edição íntegra em português — conferir que inclui a parte do "projeto de
-perfeição moral", onde ele descreve o método das 13 virtudes).
+**Edição**: Para *Cheshbon ha-Nefesh*, não existe edição em português, sendo a hebraico-inglês da **Feldheim** a referência. Como alternativa para a *Autobiografia de Benjamin Franklin*, a melhor edição em pt_BR é a da **Penguin-Companhia (tradução de Cide Piquet)**. Como leitura clássica de Mussar (ética e caráter), o livro fundamental traduzido em português é **"O Caminho dos Justos" (Ramchal, Editora Sêfer)**.
 
-**Link**: https://feldheim.com/cheshbon-ha-nefesh
+**Links**:
+- Cheshbon ha-Nefesh na Feldheim: https://feldheim.com/cheshbon-ha-nefesh
+- Autobiografia de Franklin na Companhia das Letras: https://www.companhiadasletras.com.br/livro/9788563560797/autobiografia
+- O Caminho dos Justos na Sêfer: https://sefer.com.br/products/o-caminho-dos-justos-mesilat-yesharim
 
 ### 9. Viktor Frankl — "Em Busca de Sentido"
 
