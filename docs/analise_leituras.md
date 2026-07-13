@@ -55,3 +55,29 @@ Este relatório apresenta uma análise crítica e rigorosa das edições, tradu�
 
 > [!TIP]
 > A atualização direta do arquivo [leituras.md](file:///home/vps/projetos/reza-e-exercicio/docs/leituras.md) com essas melhorias trará um ganho imediato de autoridade e utilidade prática para o projeto, direcionando o leitor brasileiro às edições corretas que de fato farão a leitura render o máximo possível.
+
+---
+
+## Adendo de verificação independente (13/07/2026)
+
+Checagem posterior na web (Claude) confirmou a maior parte do relatório, mas
+derrubou os pontos abaixo — o `leituras.md` já foi corrigido de acordo:
+
+- **Montecristo "Cartas de um Estoico"**: NÃO é tradução direta do latim. O
+  tradutor Alexandre Pires Vieira trabalhou a partir de versões em inglês
+  (Gummere, base Otto Hense), conforme a própria página da editora.
+- **"O Caminho do Gentio Justo"**: não existe edição em português; o livro
+  está disponível apenas em inglês ("The Path of the Righteous Gentile") e
+  espanhol ("El Camino del Gentil Justo").
+- **Autobiografia de Franklin "Penguin-Companhia, trad. Cide Piquet"**:
+  edição não confirmada em nenhuma fonte; link da Companhia das Letras morto.
+- **Tradutor da L&PM "Aprendendo a Viver"**: é Lúcia Sá Rebello e Ellen
+  Itanajara Neves Vranas (direto do latim), não "Julio Gastaud".
+- **Links da Companhia das Letras** para Meditações e Manual do estoicismo
+  tinham ISBN errado (corretos: 9788582851777 e 9788582852279); link do
+  Mishnê Torá Vol. 1 na Sêfer retornava 404.
+
+Confirmados sem ressalva: Meditações Penguin/Dinucci 2024, Manual do
+estoicismo Penguin/Dinucci+Julien 2025, PDF da UFS, Gulbenkian, Guia dos
+Perplexos (Sêfer/Horwitz 2018), Íntegro: Hilchot Deot (Sêfer/Dichi),
+O Caminho dos Justos (Sêfer), The Divine Code, Feldheim, Frankl (Vozes).

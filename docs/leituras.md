@@ -31,7 +31,7 @@ mesmo, várias vezes ao dia, sobre a ordem (logos) que sustenta o cosmos —
 **Edição**: **Penguin-Companhia, tradução de Aldo Dinucci (2024)** — tradução direta do grego por um dos maiores helenistas e especialistas em estoicismo do Brasil, unindo rigor conceitual com leitura fluida e acessível. Como alternativa didática excelente, a edição da **Edipro (tradução de Edson Bini)** também é direta do grego e traz rico glossário. Evite edições baratas sem tradutor na capa: costuma ser sinal de tradução indireta.
 
 **Links**:
-- Edição Penguin-Companhia: https://www.companhiadasletras.com.br/livro/9788582852231/meditacoes
+- Edição Penguin-Companhia: https://www.companhiadasletras.com.br/livro/9788582851777/meditacoes
 - Edição Edipro: https://edipro.com.br/livro/meditacoes/
 
 ### 2. Epicteto — "Encheirídion" (O Manual)
@@ -44,14 +44,14 @@ medo como oráculo.
 
 **Links**:
 - PDF acadêmico da UFS: https://seer.ufs.br/index.php/prometeus/article/download/815/720/0
-- Edição física Penguin-Companhia: https://www.companhiadasletras.com.br/livro/9788582852651/manual-do-estoicismo
+- Edição física Penguin-Companhia: https://www.companhiadasletras.com.br/livro/9788582852279/manual-do-estoicismo
 
 ### 3. Sêneca — "Cartas a Lucílio"
 
 Inclui a revisão noturna sem autopunição — o encerramento das 20h deste
 projeto tem essa assinatura.
 
-**Edição**: A referência acadêmica monumental em língua portuguesa é a da **Fundação Calouste Gulbenkian (Portugal), tradução de J. A. Segurado e Campos** — completa e direta do latim. Por ser em português europeu e de alto custo no Brasil, a melhor alternativa comercial brasileira para a versão integral é a edição em volumes da **Editora Montecristo** ("Cartas de um Estoico"). Como porta de entrada de bolso prática e acessível, a antologia **"Aprendendo a Viver" (L&PM Pocket)**, com tradução direta do latim por Lúcia Sá Rebello e Ellen Vranas, é excelente.
+**Edição**: A referência acadêmica monumental em língua portuguesa é a da **Fundação Calouste Gulbenkian (Portugal), tradução de J. A. Segurado e Campos** — a única versão integral completa e direta do latim (português europeu, custo alto no Brasil). Como porta de entrada de bolso prática e acessível, a antologia **"Aprendendo a Viver" (L&PM Pocket)**, com tradução direta do latim por Lúcia Sá Rebello e Ellen Itanajara Neves Vranas, é excelente. **Atenção**: a edição integral em volumes da Editora Montecristo ("Cartas de um Estoico") foi traduzida a partir de versões em inglês (Gummere), não do latim — cai na armadilha da regra geral acima; evitar.
 
 **Links**:
 - Edição Calouste Gulbenkian: https://gulbenkian.pt/publications/cartas-a-lucilio-8a-ed/
@@ -92,7 +92,7 @@ O "caminho do meio": ética como calibragem racional do caráter, incluindo cuid
 
 **Links**:
 - Edição comentada na Sêfer: https://sefer.com.br/products/integro-hilchot-deot
-- Livro do Conhecimento (Vol. 1) na Sêfer: https://sefer.com.br/products/mishne-tora-livro-do-conhecimento-sefer-hamada-volume-1
+- Livro do Conhecimento na Sêfer (buscar "Mishnê Torá" no catálogo): https://sefer.com.br/search?q=mishne+tora
 - Texto em inglês no Chabad: https://www.chabad.org/library/article_cdo/aid/910314/jewish/Deot.htm
 - Texto em inglês/hebraico no Sefaria: https://www.sefaria.org/Mishneh_Torah%2C_Human_Dispositions
 
@@ -100,7 +100,7 @@ O "caminho do meio": ética como calibragem racional do caráter, incluindo cuid
 
 Para ver como a tradição organiza o que aqui chamamos de "Lógica Moral do Universo".
 
-**Edição**: A referência jurisprudencial definitiva é **"The Divine Code" (Moshe Weiner, Ask Noah International)**, em inglês ou espanhol. Em português do Brasil, a melhor e mais respeitada introdução física é o livro **"O Caminho do Gentio Justo"** (Chaim Clorfene e Yakov Rogalsky), que sistematiza as 7 leis com clareza. Materiais gratuitos online estão disponíveis em asknoah.org e pt.chabad.org.
+**Edição**: A referência jurisprudencial definitiva é **"The Divine Code" (Moshe Weiner, Ask Noah International)**, em inglês ou espanhol. A introdução clássica ao tema é **"The Path of the Righteous Gentile"** (Chaim Clorfene e Yakov Rogalsky) — disponível em inglês e espanhol ("El Camino del Gentil Justo"); **não existe edição em português** (verificado em 13/07/2026). Em português, o material de referência gratuito está em asknoah.org/portuguese e pt.chabad.org.
 
 **Links**:
 - Livro "The Divine Code" (inglês): https://asknoah.org/books/the-divine-code
@@ -111,11 +111,11 @@ Para ver como a tradição organiza o que aqui chamamos de "Lógica Moral do Uni
 
 **Menachem Mendel Lefin, "Cheshbon ha-Nefesh" (Contabilidade da Alma)** — o método clássico de balanço semanal de caráter, do qual vem o balanço de domingo às 20h deste projeto. Curiosidade que dá força ao projeto: Lefin se inspirou abertamente no sistema de 13 virtudes de **Benjamin Franklin**.
 
-**Edição**: Para *Cheshbon ha-Nefesh*, não existe edição em português, sendo a hebraico-inglês da **Feldheim** a referência. Como alternativa para a *Autobiografia de Benjamin Franklin*, a melhor edição em pt_BR é a da **Penguin-Companhia (tradução de Cide Piquet)**. Como leitura clássica de Mussar (ética e caráter), o livro fundamental traduzido em português é **"O Caminho dos Justos" (Ramchal, Editora Sêfer)**.
+**Edição**: Para *Cheshbon ha-Nefesh*, não existe edição em português, sendo a hebraico-inglês da **Feldheim** a referência. Para a *Autobiografia de Benjamin Franklin*, há várias edições em pt_BR de qualidade desigual — nenhuma edição Penguin-Companhia foi confirmada (verificado em 13/07/2026); antes de comprar, conferir tradutor e origem da tradução na Estante Virtual ou na livraria. Como leitura clássica de Mussar (ética e caráter), o livro fundamental traduzido em português é **"O Caminho dos Justos" (Ramchal, Editora Sêfer)**.
 
 **Links**:
 - Cheshbon ha-Nefesh na Feldheim: https://feldheim.com/cheshbon-ha-nefesh
-- Autobiografia de Franklin na Companhia das Letras: https://www.companhiadasletras.com.br/livro/9788563560797/autobiografia
+- Busca de edições da Autobiografia de Franklin: https://www.estantevirtual.com.br/busca?q=autobiografia+benjamin+franklin
 - O Caminho dos Justos na Sêfer: https://sefer.com.br/products/o-caminho-dos-justos-mesilat-yesharim
 
 ### 9. Viktor Frankl — "Em Busca de Sentido"
