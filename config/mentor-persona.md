@@ -65,24 +65,24 @@ usuário entenda primeiro a ideia central e depois leia o texto mais profundo.
 
 - `aberturas` (4) — rezas longas para as 5h, tema de início de dia.
 - `longas` (15) — rezas longas para as 12h, uma Lei de Noé cada.
-- `encerramentos` (4) — rezas longas para as 20h, tema de fechamento.
-- `curtas` (29) — rezas de 1 parágrafo para as outras 13 horas; inclui
+- `encerramentos` (4) — rezas longas para as 19h, tema de fechamento.
+- `curtas` (29) — rezas de 1 parágrafo para as outras 12 horas; inclui
   três "perguntas abertas", que examinam em vez de afirmar (antídoto
   contra o sistema virar espelho de si mesmo).
-- `encerramentosSemanais` (2) — balanço da semana, domingo às 20h, no
+- `encerramentosSemanais` (2) — balanço da semana, domingo às 19h, no
   espírito do cheshbon hanefesh (contabilidade da alma, tradição Mussar).
 - `contemplativas` (13) — sábado: as horas curtas trocam revisão por
   apreciação. Mesmos horários, outra respiração — a lógica racional do
   descanso semanal.
 
-As âncoras (5h, 12h, 20h) rotacionam pelo índice do dia. As curtas usam um
+As âncoras (5h, 12h, 19h) rotacionam pelo índice do dia. As curtas usam um
 bloco de 13 consecutivas do banco, deslizando um índice por dia — nada se
 repete no mesmo dia e o conjunto muda entre dias. Contemplativas e balanço
 semanal rotacionam pelo índice da semana.
 
 Leituras que sustentam esta filosofia: `docs/leituras.md`.
 
-## Formato da reza longa (âncoras: 5h, 12h, 20h)
+## Formato da reza longa (âncoras: 5h, 12h, 19h)
 
 5 parágrafos, ~300-380 palavras (2-3 minutos de leitura reflexiva):
 

@@ -1,12 +1,12 @@
 # reza-e-exercicio
 
-Lembrete de hora em hora, das 5h às 20h (horário de Brasília), com um
+Lembrete de hora em hora, das 5h às 19h (horário de Brasília), com um
 exercício rápido, uma explicação acessível e uma reza no tom de "Mentor de
 Monoteísmo Racional e Ética Universal". Mesma grade nos 7 dias da semana.
 
 ## Como funciona
 
-Um **cron da VPS** roda de hora em hora, das 5h às 20h em horário de Brasília,
+Um **cron da VPS** roda de hora em hora, das 5h às 19h em horário de Brasília,
 e manda a mensagem direto para um bot do Telegram.
 
 1. `scripts/send-lembrete.mjs` calcula a hora e o dia atuais em Brasília e
@@ -36,9 +36,9 @@ tema novo seja publicado sem explicação, exemplo ou prática.
 - **5h — abertura** (reza longa): banco de 4 aberturas, rotacionando por dia.
 - **12h — reza completa** (longa): banco de 15 rezas, uma Lei de Noé cada,
   rotacionando por dia.
-- **20h — encerramento** (reza longa): banco de 4 encerramentos,
+- **19h — encerramento** (reza longa): banco de 4 encerramentos,
   rotacionando por dia.
-- **Demais 13 horas — rezas curtas** (2 parágrafos, ~90s de leitura
+  - **Demais 12 horas — rezas curtas** (2 parágrafos, ~90s de leitura
   somando as camadas de apoio): banco de 29 (inclui
   três "perguntas abertas"), em bloco consecutivo que desliza um índice
   por dia. Nada se repete no mesmo dia e o conjunto muda de um dia para o
@@ -51,7 +51,7 @@ tema novo seja publicado sem explicação, exemplo ou prática.
 - **Sábado**: as horas curtas trocam revisão por contemplação (banco
   `contemplativas`) — mesmos horários, tom de apreciação em vez de
   correção.
-- **Domingo, 20h**: em vez do encerramento diário, entra o **balanço da
+- **Domingo, 19h**: em vez do encerramento diário, entra o **balanço da
   semana** (banco `encerramentosSemanais`), no espírito do cheshbon
   hanefesh — revisar a semana inteira e escolher um ajuste para a próxima.
 
@@ -79,9 +79,9 @@ Na VPS, crie o arquivo `.env` na raiz do projeto e preencha:
 
 ## Comportamento de horário
 
-- O envio só é agendado entre **5h e 20h em Brasília**.
+- O envio só é agendado entre **5h e 19h em Brasília**.
 - Cada linha do cron passa explicitamente a hora pretendida (`5`, `6`, ...,
-  `20`), então um atraso de alguns minutos não troca a mensagem de horário.
+  `19`), então um atraso de alguns minutos não troca a mensagem de horário.
 - O wrapper tenta enviar até 3 vezes, com intervalo de 5 minutos entre
   tentativas.
 - Para teste manual fora da janela, use `DRY_RUN=1` com uma hora simulada.

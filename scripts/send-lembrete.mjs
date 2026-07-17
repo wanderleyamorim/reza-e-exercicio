@@ -62,37 +62,38 @@ const dia =
       );
 const slot = horaBrasilia - 5;
 
-if (slot < 0 || slot > 15) {
+if (horaBrasilia < 5 || horaBrasilia > 19) {
   console.log(
     `Fora da janela de envio em ${TIME_ZONE}: ${horaBrasilia}h. Nenhuma mensagem enviada.`
   );
   process.exit(0);
 }
 
-// Âncoras com reza completa: 5h (abertura), 12h (longa), 20h (encerramento).
-// As outras 13 horas recebem rezas curtas: um bloco de 13 consecutivas do
+// Âncoras com reza completa: 5h (abertura), 12h (longa), 19h (encerramento).
+// As outras 12 horas recebem rezas curtas: um bloco de 12 consecutivas do
 // banco, deslizando um índice por dia — nunca repete no mesmo dia e o
 // conjunto muda de um dia para o outro.
 //
 // Ritmo semanal: no sábado as horas curtas trocam revisão por contemplação
-// (banco `contemplativas`); no domingo às 20h entra o balanço da semana
+// (banco `contemplativas`); no domingo às 19h entra o balanço da semana
 // (banco `encerramentosSemanais`), no espírito do cheshbon hanefesh.
-const SLOTS_CURTA = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14];
+const SLOTS_CURTA = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13];
 const diaSemana = new Date(dia * DAY_MS).getUTCDay(); // 0=domingo, 6=sábado
 const semana = Math.floor(dia / 7);
+const slotEfetivo = horaBrasilia === 19 ? 15 : slot;
 
 let reza;
-if (slot === 0) {
+if (slotEfetivo === 0) {
   reza = cfg.aberturas[dia % cfg.aberturas.length];
-} else if (slot === 7) {
+} else if (slotEfetivo === 7) {
   reza = cfg.longas[dia % cfg.longas.length];
-} else if (slot === 15) {
+} else if (slotEfetivo === 15) {
   reza =
     diaSemana === 0
       ? cfg.encerramentosSemanais[semana % cfg.encerramentosSemanais.length]
       : cfg.encerramentos[dia % cfg.encerramentos.length];
 } else {
-  const pos = SLOTS_CURTA.indexOf(slot);
+  const pos = SLOTS_CURTA.indexOf(slotEfetivo);
   reza =
     diaSemana === 6
       ? cfg.contemplativas[(semana + pos) % cfg.contemplativas.length]
@@ -105,9 +106,9 @@ if (slot === 0) {
 // dia para não fixar o mesmo exercício no mesmo horário.
 const EXERCICIOS_LEVES = 4;
 const exercicio =
-  slot === 0
+  slotEfetivo === 0
     ? cfg.exercicios[dia % EXERCICIOS_LEVES]
-    : cfg.exercicios[(dia + slot) % cfg.exercicios.length];
+    : cfg.exercicios[(dia + slotEfetivo) % cfg.exercicios.length];
 
 const apoio = explicacoes[reza.lei];
 if (!apoio) {
@@ -125,7 +126,7 @@ if (texto.length > TELEGRAM_TEXT_LIMIT) {
 }
 
 if (process.env.DRY_RUN === "1") {
-  console.log(`[dry-run] slot ${slot} (${horaBrasilia}h), dia ${dia}, ${reza.lei}`);
+  console.log(`[dry-run] slot ${slotEfetivo} (${horaBrasilia}h), dia ${dia}, ${reza.lei}`);
   console.log(texto);
   process.exit(0);
 }
@@ -151,4 +152,4 @@ if (!resp.ok || !data.ok) {
   process.exit(1);
 }
 
-console.log(`Enviado (slot ${slot}, ${reza.lei}).`);
+console.log(`Enviado (slot ${slotEfetivo}, ${reza.lei}).`);

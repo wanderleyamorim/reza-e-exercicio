@@ -2,8 +2,8 @@
 set -euo pipefail
 
 HORA="${1:-}"
-if [[ ! "$HORA" =~ ^([5-9]|1[0-9]|20)$ ]]; then
-  echo "Uso: bash scripts/enviar-cron.sh <hora 5-20>" >&2
+if [[ ! "$HORA" =~ ^([5-9]|1[0-9])$ ]]; then
+  echo "Uso: bash scripts/enviar-cron.sh <hora 5-19>" >&2
   exit 2
 fi
 

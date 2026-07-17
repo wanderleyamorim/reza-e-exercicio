@@ -48,7 +48,7 @@ medo como oráculo.
 
 ### 3. Sêneca — "Cartas a Lucílio"
 
-Inclui a revisão noturna sem autopunição — o encerramento das 20h deste
+Inclui a revisão noturna sem autopunição — o encerramento das 19h deste
 projeto tem essa assinatura.
 
 **Edição**: A referência acadêmica monumental em língua portuguesa é a da **Fundação Calouste Gulbenkian (Portugal), tradução de J. A. Segurado e Campos** — a única versão integral completa e direta do latim (português europeu, custo alto no Brasil). Como porta de entrada de bolso prática e acessível, a antologia **"Aprendendo a Viver" (L&PM Pocket)**, com tradução direta do latim por Lúcia Sá Rebello e Ellen Itanajara Neves Vranas, é excelente. **Atenção**: a edição integral em volumes da Editora Montecristo ("Cartas de um Estoico") foi traduzida a partir de versões em inglês (Gummere), não do latim — cai na armadilha da regra geral acima; evitar.
@@ -109,7 +109,7 @@ Para ver como a tradição organiza o que aqui chamamos de "Lógica Moral do Uni
 
 ### 8. A prática do balanço (Mussar)
 
-**Menachem Mendel Lefin, "Cheshbon ha-Nefesh" (Contabilidade da Alma)** — o método clássico de balanço semanal de caráter, do qual vem o balanço de domingo às 20h deste projeto. Curiosidade que dá força ao projeto: Lefin se inspirou abertamente no sistema de 13 virtudes de **Benjamin Franklin**.
+**Menachem Mendel Lefin, "Cheshbon ha-Nefesh" (Contabilidade da Alma)** — o método clássico de balanço semanal de caráter, do qual vem o balanço de domingo às 19h deste projeto. Curiosidade que dá força ao projeto: Lefin se inspirou abertamente no sistema de 13 virtudes de **Benjamin Franklin**.
 
 **Edição**: Para *Cheshbon ha-Nefesh*, não existe edição em português, sendo a hebraico-inglês da **Feldheim** a referência. Para a *Autobiografia de Benjamin Franklin*, há várias edições em pt_BR de qualidade desigual — nenhuma edição Penguin-Companhia foi confirmada (verificado em 13/07/2026); antes de comprar, conferir tradutor e origem da tradução na Estante Virtual ou na livraria. Como leitura clássica de Mussar (ética e caráter), o livro fundamental traduzido em português é **"O Caminho dos Justos" (Ramchal, Editora Sêfer)**.
 
