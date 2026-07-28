@@ -2,7 +2,8 @@
 
 Lembrete de hora em hora, das 5h às 19h (horário de Brasília), com um
 exercício rápido, uma explicação acessível e uma reza no tom de "Mentor de
-Monoteísmo Racional e Ética Universal". Mesma grade nos 7 dias da semana.
+Monoteísmo Racional e Ética Universal". A grade completa roda de segunda a
+sábado; no domingo, somente o balanço semanal das 19h é enviado.
 
 ## Como funciona
 
