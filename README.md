@@ -1,9 +1,6 @@
 # reza-e-exercicio
 
-Lembrete de hora em hora, das 5h às 19h (horário de Brasília), com um
-exercício rápido, uma explicação acessível e uma reza no tom de "Mentor de
-Monoteísmo Racional e Ética Universal". A grade completa roda de segunda a
-sábado; no domingo, somente o balanço semanal das 19h é enviado.
+Lembrete de hora em hora, das 5h às 19h (horário de Brasília), combinando movimento físico leve, apoio explicativo acessível e reflexão espiritual sob a voz de um mentor na meia-idade, alinhado ao monoteísmo racional e à ética universal. O conteúdo aborda vida interior, corpo, tempo, finitude, relações, limites, descanso, presença e reconstrução do caráter, afastando-se do foco exclusivo em trabalho e produtividade. A grade completa roda de segunda a sábado; no domingo, somente o balanço semanal das 19h é enviado.
 
 ## Como funciona
 

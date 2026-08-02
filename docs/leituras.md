@@ -2,7 +2,9 @@
 
 Este projeto não é invenção isolada: é um monoteísmo ético universal,
 filtrado pela razão. Cada item abaixo é um antepassado ou primo direto
-dessa ideia — com a edição certa para comprar, porque tradução errada
+dessa ideia — oferecendo sustentação filosófica para o amadurecimento na meia-idade,
+o cultivo do caráter, o respeito ao corpo e a consciência da finitude.
+Abaixo está a indicação com a edição certa para comprar, porque tradução errada
 estraga livro bom.
 
 ## Regra geral antes de comprar
@@ -130,8 +132,9 @@ com a Sinodal), tradução do alemão. É a que está em qualquer livraria.
 
 ## Como estas leituras alimentam o projeto
 
-Ao encontrar uma passagem que mereça virar reza, o caminho é: traduzir
-para a lógica prática do cotidiano (formato em
-`config/mentor-persona.md`), citar como "a sabedoria milenar ensina..."
-ou "a tradição sugere...", e adicionar ao banco correspondente em
-`config/rezas.json`.
+Ao encontrar uma passagem que mereça virar reza, o caminho é: registrar a
+procedência disponível, separar citação, paráfrase, interpretação e
+desenvolvimento novo, traduzir a ideia para a lógica prática da vida madura
+(formato em `config/mentor-persona.md`) e adicionar ao banco correspondente em
+`config/rezas.json`. Sem uma fonte confirmada, não atribua a formulação a uma
+tradição de modo genérico.
