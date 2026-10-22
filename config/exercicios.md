@@ -21,7 +21,7 @@ Fonte da verdade (texto exato enviado): `config/rezas.json`, campo
 
 ## Contexto de saúde e sabedoria do corpo
 
-Usuário de 45 anos, escore de cálcio coronariano 256, sem outras restrições
+Usuário na maturidade, escore de cálcio coronariano 256, sem outras restrições
 conhecidas relatadas. O movimento aqui não busca performance estética ou heroísmo
 episódico, mas a manutenção diária e serena do corpo que sustenta a vida.
 Manter intensidade baixa/moderada por padrão; isto não é orientação médica.

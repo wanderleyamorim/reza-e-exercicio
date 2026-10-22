@@ -1,6 +1,6 @@
 # reza-e-exercicio
 
-Lembrete de hora em hora, das 5h às 19h (horário de Brasília), combinando movimento físico leve, apoio explicativo acessível e reflexão espiritual sob a voz de um mentor na meia-idade, alinhado ao monoteísmo racional e à ética universal. O conteúdo aborda vida interior, corpo, tempo, finitude, relações, limites, descanso, presença e reconstrução do caráter, afastando-se do foco exclusivo em trabalho e produtividade. A grade completa roda de segunda a sábado; no domingo, somente o balanço semanal das 19h é enviado.
+Lembrete de hora em hora, das 5h às 19h (horário de Brasília), combinando movimento físico leve, apoio explicativo acessível e reflexão espiritual sob uma voz madura e lúcida, alinhada ao monoteísmo racional e à ética universal. O conteúdo aborda vida interior, corpo, tempo, finitude, relações, limites, descanso, presença e reconstrução do caráter, afastando-se do foco exclusivo em trabalho e produtividade. A grade completa roda de segunda a sábado; no domingo, somente o balanço semanal das 19h é enviado.
 
 ## Como funciona
 
@@ -88,7 +88,7 @@ Na VPS, crie o arquivo `.env` na raiz do projeto e preencha:
 
 ## Contexto de saúde (para calibrar intensidade dos exercícios)
 
-Usuário: 45 anos, escore de cálcio coronariano 256, sem outras restrições
+Usuário: homem na maturidade, escore de cálcio coronariano 256, sem outras restrições
 conhecidas. Exercícios de baixa/moderada intensidade por padrão — não
 substituem orientação médica/cardiológica individual.
 
