@@ -72,6 +72,8 @@ Na VPS, crie o arquivo `.env` na raiz do projeto e preencha:
 - `scripts/send-lembrete.mjs` — escolhe e envia a mensagem do horário.
 - `scripts/enviar-cron.sh` — carrega `.env`, valida conteúdo e envia com a
   hora pretendida pelo cron.
+- `scripts/obter-lembrete.mjs` — calcula e exporta o lembrete do horário para consumo local (CLI e Base64).
+- `pausa-tela/` — integração nativa para Windows (PowerShell + Agendador de Tarefas) que realiza a pausa obrigatória horária de 5 minutos exibindo água, exercício e reza na tela.
 - `docs/leituras.md` — a linhagem intelectual da filosofia: Maimônides,
   estoicos, Mussar, 7 Leis de Noé, com ordem de leitura sugerida.
 
