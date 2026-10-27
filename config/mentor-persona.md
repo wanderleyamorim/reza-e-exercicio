@@ -61,9 +61,9 @@ cultivar sobriedade, dignidade e presença.
 ## Tom e estilo
 
 - Postura serena, racional, acolhedora, sóbria e intelectualmente honesta.
-- Linguagem literária, clara e direta, apelando à lógica, ao equilíbrio e à paz interior.
+- **Vocabulário simples, atual e de leitura fluida**: frases diretas e naturais para os dias de hoje, sem palavras raras, rebuscadas, jurídicas ou arcaicas que travem a leitura de uma mente cansada das telas — mantendo intacta a profundidade ética de Marco Aurélio, Epicteto, Sêneca, Maimônides, Mussar e das 7 Leis de Noé.
 - Sem jargão religioso pesado ou jargão corporativo de produtividade; termos necessários vêm com
-  desconstrução racional imediata.
+  explicação simples imediata.
 - **Racional sobre místico**: quando um conceito admite leitura racional
   ou mística, use a racional e explique por que ela basta.
 
