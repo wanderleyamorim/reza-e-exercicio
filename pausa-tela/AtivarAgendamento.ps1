@@ -1,9 +1,9 @@
 ﻿# ==============================================================================
 # AtivarAgendamento.ps1
 # Configura o Agendamento no Windows para rodar todo minuto :04 da hora
-# Integrado ao Projeto Reza-e-Exercício
+# Integrado ao Projeto Reza-e-Exercício (Ativo para todos os usuários locais)
 # ==============================================================================
-$taskName = "PausaAgua_HoraEmHora"
+$baseTaskName = "PausaAgua_HoraEmHora"
 $scriptPath = Join-Path $PSScriptRoot "ExecutarPausa.ps1"
 
 # 1. Ação: Chama o PowerShell em modo oculto
@@ -27,20 +27,39 @@ $settings = New-ScheduledTaskSettingsSet `
     -ExecutionTimeLimit (New-TimeSpan -Minutes 20) `
     -MultipleInstances IgnoreNew
 
-# 4. Contexto do usuário atual (Sessão interativa na tela)
-$principal = New-ScheduledTaskPrincipal `
-    -UserId $env:USERNAME `
-    -LogonType Interactive
+# 4. Identifica os usuários locais interativos (ex.: INSS e Wanderley Amorim)
+$targetUsers = @(
+    Get-LocalUser -ErrorAction SilentlyContinue | Where-Object {
+        $_.Enabled -and $_.Name -notmatch '^(CodexSandbox|DefaultAccount|WDAGUtilityAccount|Convidado|Guest|Administrador|Administrator)'
+    } | Select-Object -ExpandProperty Name
+)
 
-# 5. Registro da Tarefa
-Register-ScheduledTask `
-    -TaskName $taskName `
-    -Action $action `
-    -Trigger $trigger `
-    -Settings $settings `
-    -Principal $principal `
-    -Force | Out-Null
+if (-not $targetUsers -or $targetUsers.Count -eq 0) {
+    $targetUsers = @($env:USERNAME)
+}
 
-Write-Host "✅ Tarefa '$taskName' ativada com sucesso!" -ForegroundColor Green
+foreach ($userName in $targetUsers) {
+    $safeSuffix = ($userName -replace '[^a-zA-Z0-9]', '_')
+    $taskName = if ($userName -eq "INSS") { $baseTaskName } else { "${baseTaskName}_${safeSuffix}" }
+
+    try {
+        $principal = New-ScheduledTaskPrincipal `
+            -UserId "$env:COMPUTERNAME\$userName" `
+            -LogonType Interactive
+
+        Register-ScheduledTask `
+            -TaskName $taskName `
+            -Action $action `
+            -Trigger $trigger `
+            -Settings $settings `
+            -Principal $principal `
+            -Force -ErrorAction Stop | Out-Null
+
+        Write-Host "✅ Tarefa '$taskName' ativada para o usuário '$userName'!" -ForegroundColor Green
+    } catch {
+        Write-Host "⚠️ Não foi possível registrar para '$userName' (execute como Administrador para outros usuários): $($_.Exception.Message)" -ForegroundColor Yellow
+    }
+}
+
 Write-Host "Caminho do script: $scriptPath" -ForegroundColor Gray
 Write-Host "Horário de disparo: A cada 1 hora (no minuto :04 para aviso e :05 para pausa de 5 minutos)." -ForegroundColor Cyan

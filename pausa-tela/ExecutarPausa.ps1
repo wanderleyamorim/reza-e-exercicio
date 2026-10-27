@@ -15,6 +15,16 @@ param(
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
+# Ignora a execução se este usuário estiver em segundo plano ("Trocar usuário")
+try {
+    Add-Type -MemberDefinition '[DllImport("kernel32.dll")] public static extern uint WTSGetActiveConsoleSessionId();' -Name 'Win32Session' -Namespace 'Win32' -ErrorAction Stop
+    $activeConsoleSession = [Win32.Win32Session]::WTSGetActiveConsoleSessionId()
+    $currentProcessSession = (Get-Process -Id $PID).SessionId
+    if ($activeConsoleSession -ne 0xFFFFFFFF -and $activeConsoleSession -ne $currentProcessSession) {
+        exit 0
+    }
+} catch {}
+
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 
@@ -26,15 +36,16 @@ Add-Type -AssemblyName System.Drawing
 $scriptDir = $PSScriptRoot
 $projectRoot = Split-Path $scriptDir -Parent
 $nodeScript = Join-Path $projectRoot "scripts\obter-lembrete.mjs"
+$nodeExe = if (Get-Command node -ErrorAction SilentlyContinue) { "node" } elseif (Test-Path "C:\Program Files\nodejs\node.exe") { "C:\Program Files\nodejs\node.exe" } else { "node" }
 
 $lembrete = $null
 if (Test-Path $nodeScript) {
     try {
         # Chamada direta sem splatting para evitar qualquer decomposição de strings
         if ($Hora -ge 0) {
-            $b64 = & node "$nodeScript" "$Hora" "--base64" 2>$null
+            $b64 = & $nodeExe "$nodeScript" "$Hora" "--base64" 2>$null
         } else {
-            $b64 = & node "$nodeScript" "--base64" 2>$null
+            $b64 = & $nodeExe "$nodeScript" "--base64" 2>$null
         }
 
         if ($b64) {

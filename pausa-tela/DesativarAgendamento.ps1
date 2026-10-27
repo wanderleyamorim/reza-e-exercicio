@@ -1,12 +1,14 @@
 ﻿# ==============================================================================
 # DesativarAgendamento.ps1
-# Remove o agendamento da Pausa de Água e Exercício
+# Remove o agendamento da Pausa de Água e Exercício (todos os usuários)
 # ==============================================================================
-$taskName = "PausaAgua_HoraEmHora"
+$tasks = Get-ScheduledTask -TaskName "PausaAgua_HoraEmHora*" -ErrorAction SilentlyContinue
 
-if (Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue) {
-    Unregister-ScheduledTask -TaskName $taskName -Confirm:$false
-    Write-Host "✅ Tarefa '$taskName' desativada e removida com sucesso!" -ForegroundColor Green
+if ($tasks) {
+    foreach ($t in $tasks) {
+        Unregister-ScheduledTask -TaskName $t.TaskName -Confirm:$false
+        Write-Host "✅ Tarefa '$($t.TaskName)' desativada e removida com sucesso!" -ForegroundColor Green
+    }
 } else {
-    Write-Host "ℹ️ A tarefa '$taskName' não está cadastrada." -ForegroundColor Yellow
+    Write-Host "ℹ️ Nenhuma tarefa 'PausaAgua_HoraEmHora*' está cadastrada." -ForegroundColor Yellow
 }
